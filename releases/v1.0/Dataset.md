@@ -40,9 +40,26 @@ The Classification section describes how the Dataset is categorised using DCAT-A
 | **Language** | DCAT-AP v3 | `dct:language` | `dct:LinguisticSystem` | **0..n** | Language(s) used within the Dataset. | Values should be taken from the EU Vocabularies Languages Named Authority List. Repeat this property if multiple languages are represented. |
 
 ---
----
+# Responsible Parties
 
-# Publisher
+The Responsible Parties section describes organisations or individuals involved in creating, publishing or contributing to the Dataset.
+
+## Contact Point
+
+| Property | Origin | Property IRI | Range | Cardinality | Description | Usage Notes |
+|----------|--------|--------------|-------|-------------|-------------|-------------|
+| **Contact Point** | DCAT-AP v3 | `dcat:contactPoint` | `vcard:Kind` | **1..n** | Contact point for questions regarding the Dataset. | At least one contact mechanism must be provided, either an email address or a contact webpage. |
+
+## Creator
+
+| Property | Origin | Property IRI | Range | Cardinality | Description | Usage Notes |
+|----------|--------|--------------|-------|-------------|-------------|-------------|
+| **Creator Name** | DCAT-AP v3 | `dct:creator` | `foaf:Agent` | **0..n** | Organisation or individual responsible for creating the Dataset. | The property may be repeated for multiple creators and multilingual names. |
+| **Creator Contact Point** | DCAT-AP v3 | *(part of `foaf:Agent`)* | `vcard:Kind` | **0..1** | Contact information for the creator. | Provide an email address or webpage through which the creator can be contacted. |
+| **Creator Type** | DCAT-AP v3 | `dct:type` | `skos:Concept` | **0..1** | Type of creator. | If the organisation exists in the EU Corporate Bodies Authority List, use the corresponding concept. |
+| **Creator Note** | DCAT-AP v3 | `dct:description` | `rdfs:Literal` | **0..1** | Description of the creator and its activities. | Free-text description of the creator's role. |
+
+## Publisher
 
 The Publisher section describes the organisation responsible for making the Dataset available and provides the information required to contact that organisation.
 
@@ -52,6 +69,16 @@ The Publisher section describes the organisation responsible for making the Data
 | **Publisher Contact Point** | EUCAIM DCAT-AP | `dct:publisher` | `foaf:Organization` `(foaf:mbox,foaf:homepage)` | **1..1** | Contact information for the publisher. | Provide either a contact email address or a webpage (e.g. web form) through which the organisation can be contacted. |
 | **Publisher Type** | HealthDCAT-AP | `healthdcatap:publisherType` | `skos:Concept` | **0..1** | The type of organisation publishing the Dataset. | Recommended values include: Research Institute, Hospital or Healthcare System Repository, European Project, Cancer Screening Programme, Patient Association, Data Altruism Organisation, ERIC and EDIC. |
 | **Publisher Note** | HealthDCAT-AP | `dct:description` | `rdfs:Literal` | **0..1** | A description of the publisher and its activities. | This property may be repeated for multiple language versions. It should provide information relevant to the publisher in the context of the Dataset. |
+
+## Qualified Attribution
+
+| Property | Origin | Property IRI | Range | Cardinality | Description | Usage Notes |
+|----------|--------|--------------|-------|-------------|-------------|-------------|
+| **Qualified Attribution Agent Name** | DCAT-AP v3 | `prov:qualifiedAttribution` | `prov:Attribution` | **0..n** | Agent having a specific role with respect to the Dataset. | Use when the relationship between an Agent and the Dataset cannot be represented using standard DCAT properties such as Creator or Publisher. |
+| **Qualified Attribution Agent Contact Point** | DCAT-AP v3 | *(part of `prov:Attribution`)* | `vcard:Kind` | **0..1** | Contact information for the attributed Agent. | Provide an email address or webpage where appropriate. |
+| **Qualified Attribution Agent Role** | DCAT-AP v3 | `dcat:hadRole` | `skos:Concept` | **1..1** | Function or responsibility of the attributed Agent. | Use values from recognised controlled vocabularies such as ISO 19115 CI_RoleCode. |
+
+
 
 ---
 
@@ -176,34 +203,6 @@ The Relationships section describes links between the Dataset and other resource
 
 ---
 
-# Agents
-
-The Agents section describes organisations or individuals involved in creating, publishing or contributing to the Dataset.
-
-## Contact Point
-
-| Property | Origin | Property IRI | Range | Cardinality | Description | Usage Notes |
-|----------|--------|--------------|-------|-------------|-------------|-------------|
-| **Contact Point** | DCAT-AP v3 | `dcat:contactPoint` | `vcard:Kind` | **1..n** | Contact point for questions regarding the Dataset. | At least one contact mechanism must be provided, either an email address or a contact webpage. |
-
-## Creator
-
-| Property | Origin | Property IRI | Range | Cardinality | Description | Usage Notes |
-|----------|--------|--------------|-------|-------------|-------------|-------------|
-| **Creator Name** | DCAT-AP v3 | `dct:creator` | `foaf:Agent` | **0..n** | Organisation or individual responsible for creating the Dataset. | The property may be repeated for multiple creators and multilingual names. |
-| **Creator Contact Point** | DCAT-AP v3 | *(part of `foaf:Agent`)* | `vcard:Kind` | **0..1** | Contact information for the creator. | Provide an email address or webpage through which the creator can be contacted. |
-| **Creator Type** | DCAT-AP v3 | `dct:type` | `skos:Concept` | **0..1** | Type of creator. | If the organisation exists in the EU Corporate Bodies Authority List, use the corresponding concept. |
-| **Creator Note** | DCAT-AP v3 | `dct:description` | `rdfs:Literal` | **0..1** | Description of the creator and its activities. | Free-text description of the creator's role. |
-
-## Qualified Attribution
-
-| Property | Origin | Property IRI | Range | Cardinality | Description | Usage Notes |
-|----------|--------|--------------|-------|-------------|-------------|-------------|
-| **Qualified Attribution Agent Name** | DCAT-AP v3 | `prov:qualifiedAttribution` | `prov:Attribution` | **0..n** | Agent having a specific role with respect to the Dataset. | Use when the relationship between an Agent and the Dataset cannot be represented using standard DCAT properties such as Creator or Publisher. |
-| **Qualified Attribution Agent Contact Point** | DCAT-AP v3 | *(part of `prov:Attribution`)* | `vcard:Kind` | **0..1** | Contact information for the attributed Agent. | Provide an email address or webpage where appropriate. |
-| **Qualified Attribution Agent Role** | DCAT-AP v3 | `dcat:hadRole` | `skos:Concept` | **1..1** | Function or responsibility of the attributed Agent. | Use values from recognised controlled vocabularies such as ISO 19115 CI_RoleCode. |
-
----
 
 # Dates & Versioning
 
