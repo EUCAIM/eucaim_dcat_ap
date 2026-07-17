@@ -1,6 +1,6 @@
 # EUCAIM DCAT Application Profile
 
-The **EUCAIM DCAT Application Profile (EUCAIM DCAT-AP)** extends the **Data Catalog Vocabulary Application Profile (DCAT-AP)** and the **Health Data Catalog Application Profile (HealthDCAT-AP)** to support the description, publication, discovery, and interoperability of cancer imaging datasets within the **European Cancer Imaging Initiative (EUCAIM)**.
+The **EUCAIM DCAT Application Profile (EUCAIM DCAT-AP)** extends the **Data Catalog Vocabulary Application Profile (DCAT-AP)** and the **Health Data Catalog Application Profile (HealthDCAT-AP)** to support the description, publication, discovery, and interoperability of cancer imaging datasets within the **European Federation for Cancer Images (EUCAIM)** project.
 
 The profile defines a harmonized metadata model for describing cancer imaging datasets and their distributions, enabling interoperability between data holders and the EUCAIM Catalogue while remaining aligned with the European Health Data Space (EHDS).
 
@@ -137,7 +137,7 @@ See the `LICENSE` file for details.
 
 ## Acknowledgements
 
-This work was developed within **Work Package 5 (WP5)** of the **European Cancer Imaging Initiative (EUCAIM)**.
+This work was developed within **Work Package 5 (WP5)** of the **EUCAIM** project.
 
 The EUCAIM project has received funding from the European Union's **Digital Europe Programme (DEP)** under Grant Agreement **No. 101100633**.
 
