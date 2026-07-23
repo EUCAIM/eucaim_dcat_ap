@@ -18,6 +18,7 @@ The snippets below assume the following prefixes:
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix spdx: <http://spdx.org/rdf/terms#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix eucaim: <https://cancerimage.eu/ontology/EUCAIM#> .
 ```
 
 ---
@@ -27,30 +28,25 @@ The snippets below assume the following prefixes:
 ## Access URL
 
 ```turtle
-ex:distribution
-    dcat:accessURL
-        <https://negotiator.eucaim.cancerimage.eu/collection/a96b56cd-59d4-444a-8e59-32a7fb0d7dea> .
+    dcat:accessURL <https://negotiator.eucaim.cancerimage.eu/collection/a96b56cd-59d4-444a-8e59-32a7fb0d7dea> .
 ```
 
 ## Access Service
 
 ```turtle
-ex:distribution
     dcat:accessService ex:eucaim-access-service .
 
-ex:eucaim-access-service
-    a dcat:DataService ;
-    dct:title "EUCAIM Dataset Access Service"@en ;
-    dcat:endpointURL
-        <https://negotiator.eucaim.cancerimage.eu/> .
+    ex:eucaim-access-service
+        a dcat:DataService ;
+        dct:title "EUCAIM Dataset Access Service"@en ;
+        dcat:endpointURL
+            <https://negotiator.eucaim.cancerimage.eu/> .
 ```
 
 ## Download URL
 
 ```turtle
-ex:distribution
-    dcat:downloadURL
-        <https://example.org/eucaim/distributions/prostate-mri.zip> .
+    dcat:downloadURL <https://example.org/eucaim/distributions/prostate-mri.zip> .
 ```
 
 Use `dcat:downloadURL` only when the data can be directly downloaded.
@@ -58,9 +54,7 @@ Use `dcat:downloadURL` only when the data can be directly downloaded.
 ## Availability
 
 ```turtle
-ex:distribution
-    dcatap:availability
-        <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> .
+    dcatap:availability <http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE> .
 ```
 
 ---
@@ -70,24 +64,19 @@ ex:distribution
 ## Title
 
 ```turtle
-ex:distribution
     dct:title "DICOM imaging data distribution"@en .
 ```
 
 ## Description
 
 ```turtle
-ex:distribution
-    dct:description
-        "This is the DICOM imaging data distribution."@en .
+    dct:description "This is the DICOM imaging data distribution."@en .
 ```
 
 ## Documentation
 
 ```turtle
-ex:distribution
-    foaf:page
-        <https://example.org/eucaim/distributions/prostate-mri/documentation> .
+    foaf:page <https://example.org/eucaim/distributions/prostate-mri/documentation> .
 ```
 
 ---
@@ -97,47 +86,36 @@ ex:distribution
 ## Format
 
 ```turtle
-ex:distribution
-    dct:format
-        <http://publications.europa.eu/resource/authority/file-type/DCM> .
+    dct:format <http://publications.europa.eu/resource/authority/file-type/DCM> .
 ```
 
 Where no suitable EU file-type concept is available, a media type URI may be referenced:
 
 ```turtle
-ex:distribution
-    dct:format
-        <https://www.iana.org/assignments/media-types/application/dicom> .
+    dct:format <https://www.iana.org/assignments/media-types/application/dicom> .
 ```
 
 ## Media Type
 
 ```turtle
-ex:distribution
-    dcat:mediaType
-        <https://www.iana.org/assignments/media-types/application/dicom> .
+    dcat:mediaType <https://www.iana.org/assignments/media-types/application/dicom> .
 ```
 
 ## Compression Format
 
 ```turtle
-ex:distribution
-    dcat:compressFormat
-        <https://www.iana.org/assignments/media-types/application/zip> .
+    dcat:compressFormat <https://www.iana.org/assignments/media-types/application/zip> .
 ```
 
 ## Packaging Format
 
 ```turtle
-ex:distribution
-    dcat:packageFormat
-        <https://www.iana.org/assignments/media-types/application/zip> .
+    dcat:packageFormat <https://www.iana.org/assignments/media-types/application/zip> .
 ```
 
 ## Image Size
 
 ```turtle
-ex:distribution
     dcat:byteSize "348966092800"^^xsd:decimal .
 ```
 
@@ -146,7 +124,6 @@ ex:distribution
 ## Checksum
 
 ```turtle
-ex:distribution
     spdx:checksum [
         a spdx:Checksum ;
         spdx:algorithm spdx:checksumAlgorithm_sha256 ;
@@ -158,7 +135,6 @@ ex:distribution
 ## Checksum Algorithm
 
 ```turtle
-ex:distribution
     spdx:checksum [
         a spdx:Checksum ;
         spdx:algorithm spdx:checksumAlgorithm_sha256 ;
@@ -170,17 +146,13 @@ ex:distribution
 ## Spatial Resolution
 
 ```turtle
-ex:distribution
-    dcat:spatialResolutionInMeters
-        "0.001"^^xsd:decimal .
+    dcat:spatialResolutionInMeters "0.001"^^xsd:decimal .
 ```
 
 ## Temporal Resolution
 
 ```turtle
-ex:distribution
-    dcat:temporalResolution
-        "PT1S"^^xsd:duration .
+    dcat:temporalResolution "PT1S"^^xsd:duration .
 ```
 
 ---
@@ -190,17 +162,13 @@ ex:distribution
 ## Linked Schemas
 
 ```turtle
-ex:distribution
-    dct:conformsTo
-        <https://www.dicomstandard.org/current> .
+    dct:conformsTo <https://www.dicomstandard.org/current> .
 ```
 
 ## Language
 
 ```turtle
-ex:distribution
-    dct:language
-        <http://publications.europa.eu/resource/authority/language/ENG> .
+    dct:language <http://publications.europa.eu/resource/authority/language/ENG> .
 ```
 
 ---
@@ -210,17 +178,13 @@ ex:distribution
 ## Applicable Legislation
 
 ```turtle
-ex:distribution
-    dcatap:applicableLegislation
-        <http://data.europa.eu/eli/reg/2022/868/oj> .
+    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2022/868/oj> .
 ```
 
 ## License
 
 ```turtle
-ex:distribution
-    dct:license
-        <https://creativecommons.org/licenses/by/4.0/> .
+    dct:license <https://creativecommons.org/licenses/by/4.0/> .
 ```
 
 For non-public health data, the applicable data-use agreement or licence should be referenced instead of an open-content licence where appropriate.
@@ -228,7 +192,6 @@ For non-public health data, the applicable data-use agreement or licence should 
 ## Rights
 
 ```turtle
-ex:distribution
     dct:rights [
         a dct:RightsStatement ;
         rdfs:label
@@ -239,7 +202,6 @@ ex:distribution
 ## Has Policy
 
 ```turtle
-ex:distribution
     odrl:hasPolicy [
         a odrl:Policy ;
 
@@ -267,7 +229,6 @@ ex:distribution
 ## Access Conditions
 
 ```turtle
-ex:distribution
     dct:rights [
         a dct:RightsStatement ;
         rdfs:label
@@ -278,9 +239,7 @@ ex:distribution
 ## Access Rights
 
 ```turtle
-ex:distribution
-    dct:accessRights
-        <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> .
+    dct:accessRights <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> .
 ```
 
 ---
@@ -290,21 +249,17 @@ ex:distribution
 ## Status
 
 ```turtle
-ex:distribution
-    adms:status
-        <http://publications.europa.eu/resource/authority/dataset-status/COMPLETED> .
+    adms:status <http://publications.europa.eu/resource/authority/dataset-status/COMPLETED> .
 ```
 
 ## Release Date
 
 ```turtle
-ex:distribution
     dct:issued "2023-11-22"^^xsd:date .
 ```
 
 ## Modification Date
 
 ```turtle
-ex:distribution
     dct:modified "2024-02-15"^^xsd:date .
 ```
