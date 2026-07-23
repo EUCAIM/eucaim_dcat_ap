@@ -33,8 +33,8 @@ eucaim-dcat-ap/
     │   ├── Dataset.md
     │   ├── Distribution.md
     │   └── examples/
-    │       ├── Dataset.ttl
-    │       └── Distribution.ttl
+    │       ├── Dataset Examples.md
+    │       └── Distribution Examples.md
     └── v2.0/
         └── ...
 ```
