@@ -106,11 +106,12 @@ Major versions correspond to significant revisions of the application profile, t
 
 ## Relationship with Other Specifications
 
-The EUCAIM DCAT Application Profile builds upon the following standards and specifications:
+The EUCAIM DCAT Application Profile builds upon and aligns with the following standards, application profiles, vocabularies, and metadata specifications:
 
 - W3C DCAT 3
 - DCAT Application Profile for data portals in Europe (DCAT-AP)
 - HealthDCAT Application Profile (HealthDCAT-AP)
+- BBMRI-ERIC Cataloguing Metadata Specification (MIABIS)
 - Dublin Core Metadata Terms (DCT)
 - Data Privacy Vocabulary (DPV)
 - PROV Ontology (PROV-O)
@@ -123,7 +124,7 @@ The EUCAIM DCAT Application Profile builds upon the following standards and spec
 
 Issues and suggestions for improving the specification are welcome.
 
-Contributions should preserve compatibility with the underlying DCAT-AP and HealthDCAT-AP specifications whenever possible.
+Contributions should preserve compatibility with the underlying DCAT-AP and HealthDCAT-AP specifications.
 
 ---
 

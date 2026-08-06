@@ -1,0 +1,495 @@
+label,conceptIRI
+Abdomen,https://cancerimage.eu/ontology/EUCAIM#BP1000173
+Abdomen and Pelvis,https://cancerimage.eu/ontology/EUCAIM#BP1000211
+Abdomen proper,https://cancerimage.eu/ontology/EUCAIM#BP1000249
+Abdominopelvic cross-sectional segment,https://cancerimage.eu/ontology/EUCAIM#BP1000094
+Abdominopelvic segment of trunk,https://cancerimage.eu/ontology/EUCAIM#BP1000252
+Adenomatous polyposis coli,https://cancerimage.eu/ontology/EUCAIM#CLIN1059056
+Adrenal gland,https://cancerimage.eu/ontology/EUCAIM#BP1000084
+Anal region structure,https://cancerimage.eu/ontology/EUCAIM#CLIN1063618
+Anal structure,https://cancerimage.eu/ontology/EUCAIM#CLIN1063622
+Anatomic Site,https://cancerimage.eu/ontology/EUCAIM#CLIN1063491
+Anatomical structure,https://cancerimage.eu/ontology/EUCAIM#BP1000055
+Anorectal structure,https://cancerimage.eu/ontology/EUCAIM#BP1000219
+Anterior fibromuscular stroma of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000227
+Aorta,https://cancerimage.eu/ontology/EUCAIM#BP1000143
+Apical anterior fibromuscular stroma of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000187
+Apical peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000017
+Apical transition zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000246
+Area striata structure,https://cancerimage.eu/ontology/EUCAIM#BP1000416
+Areola structure,https://cancerimage.eu/ontology/EUCAIM#CLIN1063635
+Arm,https://cancerimage.eu/ontology/EUCAIM#BP1000220
+Ascending colon,https://cancerimage.eu/ontology/EUCAIM#CLIN1063736
+Ascending colon structure,https://cancerimage.eu/ontology/EUCAIM#CLIN1063371
+Auricular region structure,https://cancerimage.eu/ontology/EUCAIM#BP1000125
+Axial skeleton structure,https://cancerimage.eu/ontology/EUCAIM#BP1000108
+Axillary lymph node group,https://cancerimage.eu/ontology/EUCAIM#CLIN1063640
+Axillary lymph node structure,https://cancerimage.eu/ontology/EUCAIM#BP1000158
+Basal anterior fibromuscular stroma of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000157
+Basal ganglia,https://cancerimage.eu/ontology/EUCAIM#BP1000375
+Basal peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000131
+Basal transition zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000071
+Base of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000037
+Biliary tract structure,https://cancerimage.eu/ontology/EUCAIM#BP1000184
+Bladder,https://cancerimage.eu/ontology/EUCAIM#BP1000301
+Body organ structure,https://cancerimage.eu/ontology/EUCAIM#BP1000214
+Body part structure,https://cancerimage.eu/ontology/EUCAIM#BP1000212
+Body region structure,https://cancerimage.eu/ontology/EUCAIM#BP1000116
+Body system structure,https://cancerimage.eu/ontology/EUCAIM#BP1000146
+Body tissue structure,https://cancerimage.eu/ontology/EUCAIM#BP100040607
+Bone and/or joint structure of cranium,https://cancerimage.eu/ontology/EUCAIM#BP1000138
+Bone marrow structure,https://cancerimage.eu/ontology/EUCAIM#CLIN1063269
+Bone structure,https://cancerimage.eu/ontology/EUCAIM#CLIN1063497
+Bone structure of femur,https://cancerimage.eu/ontology/EUCAIM#BP1000198
+Bone structure of head,https://cancerimage.eu/ontology/EUCAIM#BP1000078
+Brain,https://cancerimage.eu/ontology/EUCAIM#BP1000051
+Brain Deep White Matter Structure,https://cancerimage.eu/ontology/EUCAIM#BP1000441
+Brain Lesion Site,https://cancerimage.eu/ontology/EUCAIM#CLIN1063493
+Brain and spinal cord structure,https://cancerimage.eu/ontology/EUCAIM#BP1000001
+Brain part,https://cancerimage.eu/ontology/EUCAIM#BP1000359
+Brain region,https://cancerimage.eu/ontology/EUCAIM#BP1000360
+Brain stem,https://cancerimage.eu/ontology/EUCAIM#BP1000061
+Brain tissue structure,https://cancerimage.eu/ontology/EUCAIM#BP1000358
+"Brain, NOS",https://cancerimage.eu/ontology/EUCAIM#BP1000324
+Breast,https://cancerimage.eu/ontology/EUCAIM#CLIN1063727
+Breast part,https://cancerimage.eu/ontology/EUCAIM#CLIN1063633
+Breast structure,https://cancerimage.eu/ontology/EUCAIM#BP1000136
+"Breast, NOS",https://cancerimage.eu/ontology/EUCAIM#BP1000270
+Bronchial structure,https://cancerimage.eu/ontology/EUCAIM#BP1000405
+Bronchus and lung,https://cancerimage.eu/ontology/EUCAIM#BP1000192
+Cavity,https://cancerimage.eu/ontology/EUCAIM#CLIN1051040
+Cecum,https://cancerimage.eu/ontology/EUCAIM#CLIN1063731
+Cecum structure,https://cancerimage.eu/ontology/EUCAIM#CLIN1063321
+Central nervous system part,https://cancerimage.eu/ontology/EUCAIM#CLIN1063275
+Central portion of breast,https://cancerimage.eu/ontology/EUCAIM#BP1000284
+Central zone necrosis,https://cancerimage.eu/ontology/EUCAIM#CLIN1051032
+Central zone of left half prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000225
+Central zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000168
+Central zone of right half prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000254
+Cerebellar nucleus,https://cancerimage.eu/ontology/EUCAIM#BP1000399
+Cerebellar part,https://cancerimage.eu/ontology/EUCAIM#BP1000374
+Cerebellar peduncle,https://cancerimage.eu/ontology/EUCAIM#BP1000398
+Cerebellar white matter structure,https://cancerimage.eu/ontology/EUCAIM#BP1000355
+Cerebellum,https://cancerimage.eu/ontology/EUCAIM#BP1000373
+Cerebral cortex part,https://cancerimage.eu/ontology/EUCAIM#BP1000382
+Cerebral hemisphere part,https://cancerimage.eu/ontology/EUCAIM#BP1000369
+Cerebral hemisphere structure,https://cancerimage.eu/ontology/EUCAIM#BP1000368
+Cerebral hemisphere white matter part,https://cancerimage.eu/ontology/EUCAIM#BP1000379
+Cerebral lobe structure,https://cancerimage.eu/ontology/EUCAIM#BP1000363
+Cerebral meninges,https://cancerimage.eu/ontology/EUCAIM#BP1000305
+Cerebral white matter structure,https://cancerimage.eu/ontology/EUCAIM#BP1000377
+Cerebrum,https://cancerimage.eu/ontology/EUCAIM#BP1000367
+Cervical spine,https://cancerimage.eu/ontology/EUCAIM#BP1000240
+Cervix uteri,https://cancerimage.eu/ontology/EUCAIM#BP1000290
+Chest,https://cancerimage.eu/ontology/EUCAIM#BP1000067
+Chest and abdomen,https://cancerimage.eu/ontology/EUCAIM#BP1000183
+"Chest, abdomen, and pelvis",https://cancerimage.eu/ontology/EUCAIM#BP1000154
+Colon,https://cancerimage.eu/ontology/EUCAIM#CLIN1063722
+Colon and rectum,https://cancerimage.eu/ontology/EUCAIM#BP1000170
+Colon part,https://cancerimage.eu/ontology/EUCAIM#CLIN1063276
+Colon structure,https://cancerimage.eu/ontology/EUCAIM#BP1000257
+"Colon, NOS",https://cancerimage.eu/ontology/EUCAIM#CLIN1063766
+Combined site,https://cancerimage.eu/ontology/EUCAIM#BP1000012
+"Connective, Subcutaneous and other soft tissues of lower limb and hip",https://cancerimage.eu/ontology/EUCAIM#BP1000309
+"Connective, Subcutaneous and other soft tissues of upper limb and shoulder",https://cancerimage.eu/ontology/EUCAIM#BP1000410
+"Connective, subcutaneous and other soft tissues",https://cancerimage.eu/ontology/EUCAIM#BP1000308
+Corpus callosum,https://cancerimage.eu/ontology/EUCAIM#BP1000378
+Couinaud hepatic segment II,https://cancerimage.eu/ontology/EUCAIM#BP1000436
+Couinaud hepatic segment III,https://cancerimage.eu/ontology/EUCAIM#BP1000435
+Couinaud hepatic segment IV,https://cancerimage.eu/ontology/EUCAIM#BP1000434
+Couinaud hepatic segment V,https://cancerimage.eu/ontology/EUCAIM#BP1000429
+Couinaud hepatic segment VI,https://cancerimage.eu/ontology/EUCAIM#BP1000430
+Couinaud hepatic segment VII,https://cancerimage.eu/ontology/EUCAIM#BP1000431
+Couinaud hepatic segment VIII,https://cancerimage.eu/ontology/EUCAIM#BP1000432
+Couinaud liver segment,https://cancerimage.eu/ontology/EUCAIM#BP1000433
+Cross-sectional abdomen,https://cancerimage.eu/ontology/EUCAIM#BP1000087
+Cross-sectional pelvis,https://cancerimage.eu/ontology/EUCAIM#BP1000238
+Cross-sectional thorax,https://cancerimage.eu/ontology/EUCAIM#BP1000126
+Cyst,https://cancerimage.eu/ontology/EUCAIM#CLIN1051018
+Damage,https://cancerimage.eu/ontology/EUCAIM#IMG1016586
+Descending colon,https://cancerimage.eu/ontology/EUCAIM#CLIN1063749
+Descending colon structure,https://cancerimage.eu/ontology/EUCAIM#CLIN1063294
+Diencephalon part,https://cancerimage.eu/ontology/EUCAIM#BP1000395
+Diffuse hemorrhage,https://cancerimage.eu/ontology/EUCAIM#CLIN1051021
+Digestive organ structure,https://cancerimage.eu/ontology/EUCAIM#BP1000114
+Digestive tract part,https://cancerimage.eu/ontology/EUCAIM#CLIN1063456
+Digestive tract structure,https://cancerimage.eu/ontology/EUCAIM#CLIN1063437
+Dysplasia,https://cancerimage.eu/ontology/EUCAIM#IMG1016582
+Dysplastic nodule,https://cancerimage.eu/ontology/EUCAIM#IMG1016592
+Ear,https://cancerimage.eu/ontology/EUCAIM#BP1000163
+"Ear, nose and throat structure",https://cancerimage.eu/ontology/EUCAIM#BP1000155
+Edema,https://cancerimage.eu/ontology/EUCAIM#CLIN1051008
+Eloquent Brain Areas,https://cancerimage.eu/ontology/EUCAIM#BP1000438
+Emphysema,https://cancerimage.eu/ontology/EUCAIM#CLIN1051049
+Endocrine gland structure,https://cancerimage.eu/ontology/EUCAIM#BP1000243
+Entire Broca's area,https://cancerimage.eu/ontology/EUCAIM#BP1000387
+Entire body region,https://cancerimage.eu/ontology/EUCAIM#BP1000145
+Entire breast,https://cancerimage.eu/ontology/EUCAIM#BP1000264
+Entire colon,https://cancerimage.eu/ontology/EUCAIM#CLIN1063648
+Entire face and neck,https://cancerimage.eu/ontology/EUCAIM#BP1000292
+Entire limb,https://cancerimage.eu/ontology/EUCAIM#BP1000152
+Entire ovary,https://cancerimage.eu/ontology/EUCAIM#CLIN1063725
+Entire thyroid gland,https://cancerimage.eu/ontology/EUCAIM#BP1000288
+Entire uterus,https://cancerimage.eu/ontology/EUCAIM#BP1000296
+Entire vulva,https://cancerimage.eu/ontology/EUCAIM#BP1000402
+Esophagus,https://cancerimage.eu/ontology/EUCAIM#BP1000303
+Extremity,https://cancerimage.eu/ontology/EUCAIM#BP1000171
+Extremity part,https://cancerimage.eu/ontology/EUCAIM#BP1000083
+Eye region structure,https://cancerimage.eu/ontology/EUCAIM#BP1000231
+Face,https://cancerimage.eu/ontology/EUCAIM#BP1000293
+Face and/or neck structure,https://cancerimage.eu/ontology/EUCAIM#BP1000098
+Female genital organ structure,https://cancerimage.eu/ontology/EUCAIM#BP1000267
+Female genital tract structure,https://cancerimage.eu/ontology/EUCAIM#BP1000210
+Fluid disturbance,https://cancerimage.eu/ontology/EUCAIM#CLIN1051006
+Foot,https://cancerimage.eu/ontology/EUCAIM#BP1000020
+Frontal brain region,https://cancerimage.eu/ontology/EUCAIM#BP1000420
+Frontal lobe,https://cancerimage.eu/ontology/EUCAIM#BP1000351
+Gallbladder,https://cancerimage.eu/ontology/EUCAIM#BP1000142
+Gas retention,https://cancerimage.eu/ontology/EUCAIM#CLIN1051025
+Gastrointestinal tract structure,https://cancerimage.eu/ontology/EUCAIM#CLIN1063476
+Glandular zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000149
+Growth alteration,https://cancerimage.eu/ontology/EUCAIM#IMG1016565
+Hamartomatous polyp,https://cancerimage.eu/ontology/EUCAIM#CLIN1063520
+Head,https://cancerimage.eu/ontology/EUCAIM#BP1000120
+Head and neck,https://cancerimage.eu/ontology/EUCAIM#BP1000008
+Head part,https://cancerimage.eu/ontology/EUCAIM#BP1000417
+Heart,https://cancerimage.eu/ontology/EUCAIM#BP1000075
+Heart and/or pericardium structure,https://cancerimage.eu/ontology/EUCAIM#BP1000056
+"Heart, mediastinum, and pleura",https://cancerimage.eu/ontology/EUCAIM#BP1000025
+Hemorrhage,https://cancerimage.eu/ontology/EUCAIM#CLIN1051020
+Hepatic flexure,https://cancerimage.eu/ontology/EUCAIM#CLIN1063385
+Hepatic flexure of colon,https://cancerimage.eu/ontology/EUCAIM#BP1000261
+Hip joint,https://cancerimage.eu/ontology/EUCAIM#BP1000229
+Hip region structure,https://cancerimage.eu/ontology/EUCAIM#BP1000053
+Hypothalamus,https://cancerimage.eu/ontology/EUCAIM#BP1000397
+ICDO3Topography,https://cancerimage.eu/ontology/EUCAIM#BP1000265
+Inflammatory morphology,https://cancerimage.eu/ontology/EUCAIM#CLIN1063534
+Infratentorial brain part,https://cancerimage.eu/ontology/EUCAIM#BP1000372
+Infratentorial brain structure,https://cancerimage.eu/ontology/EUCAIM#BP1000371
+Insula and opercula structure,https://cancerimage.eu/ontology/EUCAIM#BP1000370
+Insular structure,https://cancerimage.eu/ontology/EUCAIM#BP1000364
+Internal capsule,https://cancerimage.eu/ontology/EUCAIM#BP1000380
+Intestinal structure,https://cancerimage.eu/ontology/EUCAIM#BP1000228
+Intra-abdominal digestive structure,https://cancerimage.eu/ontology/EUCAIM#BP1000023
+Intra-abdominal proper structure,https://cancerimage.eu/ontology/EUCAIM#BP1000040
+Intra-abdominal urinary structure,https://cancerimage.eu/ontology/EUCAIM#BP1000205
+Intra-abdominopelvic structure,https://cancerimage.eu/ontology/EUCAIM#BP1000123
+Intra-pelvic structure of true pelvis,https://cancerimage.eu/ontology/EUCAIM#BP1000248
+Intracranial structure,https://cancerimage.eu/ontology/EUCAIM#BP1000003
+Irregular mass,https://cancerimage.eu/ontology/EUCAIM#IMG1016516
+Joint structure of lower extremity,https://cancerimage.eu/ontology/EUCAIM#BP1000230
+Joint structure of pelvic girdle,https://cancerimage.eu/ontology/EUCAIM#BP1000144
+Kidney,https://cancerimage.eu/ontology/EUCAIM#BP1000298
+Kidney structure,https://cancerimage.eu/ontology/EUCAIM#BP1000151
+Knee,https://cancerimage.eu/ontology/EUCAIM#BP1000112
+Large intestine part,https://cancerimage.eu/ontology/EUCAIM#BP1000141
+Left anterior apical part of transition zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000217
+Left anterior apical peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000256
+Left anterior basal peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000235
+Left anterior basal transition zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000089
+Left anterior middle peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000216
+Left anterior middle transition zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000036
+Left apical anterior fibromuscular stroma of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000140
+Left apical peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000090
+Left apical transition zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000188
+Left basal anterior fibromuscular stroma of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000206
+Left basal peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000004
+Left basal transition zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000255
+Left breast structure,https://cancerimage.eu/ontology/EUCAIM#BP1000165
+Left colon structure,https://cancerimage.eu/ontology/EUCAIM#CLIN1063287
+Left lateral middle peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000082
+Left middle anterior fibromuscular stroma of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000148
+Left middle transition zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000197
+Left posterior apical part of transition zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000226
+Left posterior basal transition zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000245
+Left posterior middle transition zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000038
+Left posterolateral apical peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000026
+Left posterolateral basal peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000176
+Left posterolateral middle peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000167
+Left posteromedial apical peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000016
+Left posteromedial middle peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000244
+Left thorax structure,https://cancerimage.eu/ontology/EUCAIM#BP1000260
+Lesion,https://cancerimage.eu/ontology/EUCAIM#IMG1016402
+Lesion Site,https://cancerimage.eu/ontology/EUCAIM#CLIN1063492
+Liver,https://cancerimage.eu/ontology/EUCAIM#CLIN1063728
+Liver and intrahepatic bile ducts,https://cancerimage.eu/ontology/EUCAIM#BP1000035
+Liver and/or biliary structure,https://cancerimage.eu/ontology/EUCAIM#BP1000115
+Liver lobe part,https://cancerimage.eu/ontology/EUCAIM#BP1000437
+Liver part,https://cancerimage.eu/ontology/EUCAIM#BP1000425
+Liver segment,https://cancerimage.eu/ontology/EUCAIM#BP1000428
+Liver structure,https://cancerimage.eu/ontology/EUCAIM#BP1000105
+Lobe of liver,https://cancerimage.eu/ontology/EUCAIM#BP1000426
+Lower body part structure,https://cancerimage.eu/ontology/EUCAIM#BP1000022
+Lower bowel structures,https://cancerimage.eu/ontology/EUCAIM#BP1000236
+Lower extremity part,https://cancerimage.eu/ontology/EUCAIM#BP1000409
+Lower respiratory tract structure,https://cancerimage.eu/ontology/EUCAIM#BP1000164
+Lower-inner quadrant of breast,https://cancerimage.eu/ontology/EUCAIM#BP1000283
+Lower-outer quadrant of breast,https://cancerimage.eu/ontology/EUCAIM#BP1000282
+Lumbar spine,https://cancerimage.eu/ontology/EUCAIM#BP1000064
+Lumbosacral region of spine structure,https://cancerimage.eu/ontology/EUCAIM#BP1000068
+Lumbosacral spine,https://cancerimage.eu/ontology/EUCAIM#BP1000199
+Lung part,https://cancerimage.eu/ontology/EUCAIM#BP1000050
+Lung structure,https://cancerimage.eu/ontology/EUCAIM#BP1000113
+"Lung, NOS",https://cancerimage.eu/ontology/EUCAIM#CLIN1063787
+Lymph node structure of limb,https://cancerimage.eu/ontology/EUCAIM#BP1000150
+Male genital organ structure,https://cancerimage.eu/ontology/EUCAIM#BP1000193
+Mass,https://cancerimage.eu/ontology/EUCAIM#IMG1016511
+Mechanical abnormality,https://cancerimage.eu/ontology/EUCAIM#CLIN1051005
+Mechanical lesion,https://cancerimage.eu/ontology/EUCAIM#CLIN1051014
+Mediastinum,https://cancerimage.eu/ontology/EUCAIM#BP1000107
+Meninges,https://cancerimage.eu/ontology/EUCAIM#BP1000304
+Meninges part,https://cancerimage.eu/ontology/EUCAIM#CLIN1063278
+Meninges structure,https://cancerimage.eu/ontology/EUCAIM#CLIN1063277
+"Meninges, NOS",https://cancerimage.eu/ontology/EUCAIM#BP1000306
+Middle anterior fibromuscular stroma of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000118
+Middle peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000101
+Middle region of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000060
+Middle transition zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000159
+Morphologically abnormal structure,https://cancerimage.eu/ontology/EUCAIM#IMG1016395
+Morphologically altered structure,https://cancerimage.eu/ontology/EUCAIM#IMG1016389
+Motor area,https://cancerimage.eu/ontology/EUCAIM#BP1000392
+Motor cortex,https://cancerimage.eu/ontology/EUCAIM#BP1000391
+Musculoskeletal structure of sacral spine,https://cancerimage.eu/ontology/EUCAIM#BP1000166
+Musculoskeletal structure of spine,https://cancerimage.eu/ontology/EUCAIM#BP1000127
+Neck,https://cancerimage.eu/ontology/EUCAIM#BP1000121
+Neck and chest,https://cancerimage.eu/ontology/EUCAIM#BP1000233
+"Neck, chest and abdomen",https://cancerimage.eu/ontology/EUCAIM#BP1000204
+Necrosis,https://cancerimage.eu/ontology/EUCAIM#CLIN1051010
+Nipple structure,https://cancerimage.eu/ontology/EUCAIM#CLIN1063634
+Nodule,https://cancerimage.eu/ontology/EUCAIM#IMG1016591
+Non-coronary systemic artery structure,https://cancerimage.eu/ontology/EUCAIM#BP1000041
+Non-enhancing tumor,https://cancerimage.eu/ontology/EUCAIM#IMG1016512
+Occipital lobe,https://cancerimage.eu/ontology/EUCAIM#BP1000354
+Occipital region,https://cancerimage.eu/ontology/EUCAIM#BP1000419
+Optic canal,https://cancerimage.eu/ontology/EUCAIM#BP1000200
+Orbit structure,https://cancerimage.eu/ontology/EUCAIM#BP1000237
+Organ within abdominopelvic cavity,https://cancerimage.eu/ontology/EUCAIM#BP1000103
+Other Anatomic Concept,https://cancerimage.eu/ontology/EUCAIM#CLIN1063490
+Oval mass,https://cancerimage.eu/ontology/EUCAIM#IMG1016515
+Ovarian part,https://cancerimage.eu/ontology/EUCAIM#CLIN1063726
+Ovary,https://cancerimage.eu/ontology/EUCAIM#BP1000274
+Ovary,https://cancerimage.eu/ontology/EUCAIM#BP1000340
+Overlapping lesion of breast,https://cancerimage.eu/ontology/EUCAIM#BP1000279
+Pancreas,https://cancerimage.eu/ontology/EUCAIM#BP1000209
+Parietal lobe,https://cancerimage.eu/ontology/EUCAIM#BP1000352
+Parietal region,https://cancerimage.eu/ontology/EUCAIM#BP1000422
+Pectoral region structure,https://cancerimage.eu/ontology/EUCAIM#BP1000106
+Pelvic alimentary structure,https://cancerimage.eu/ontology/EUCAIM#BP1000190
+Pelvis,https://cancerimage.eu/ontology/EUCAIM#BP1000092
+Pelvis and lower extremities,https://cancerimage.eu/ontology/EUCAIM#BP1000161
+Perineal structure,https://cancerimage.eu/ontology/EUCAIM#CLIN1063615
+Peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000006
+Peutz Jeghers polyp,https://cancerimage.eu/ontology/EUCAIM#CLIN1063525
+Polyp,https://cancerimage.eu/ontology/EUCAIM#CLIN1054863
+Proliferation,https://cancerimage.eu/ontology/EUCAIM#IMG1016726
+Proliferative mass,https://cancerimage.eu/ontology/EUCAIM#IMG1016728
+Prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000021
+Prostate and vas deferens structures,https://cancerimage.eu/ontology/EUCAIM#BP1000251
+Prostate gland,https://cancerimage.eu/ontology/EUCAIM#BP1000039
+Prostate part,https://cancerimage.eu/ontology/EUCAIM#BP1000208
+Prostatic and/or seminal vesicle structures,https://cancerimage.eu/ontology/EUCAIM#BP1000086
+Pulmonary structure including vessels and lymphoid tissue,https://cancerimage.eu/ontology/EUCAIM#BP1000014
+Rectum,https://cancerimage.eu/ontology/EUCAIM#CLIN1063724
+Rectum structure,https://cancerimage.eu/ontology/EUCAIM#BP1000130
+"Rectum, NOS",https://cancerimage.eu/ontology/EUCAIM#CLIN1063776
+Region of cerebral cortex,https://cancerimage.eu/ontology/EUCAIM#BP1000383
+Region of colon,https://cancerimage.eu/ontology/EUCAIM#CLIN1063281
+Region of frontal cortex,https://cancerimage.eu/ontology/EUCAIM#BP1000385
+Region of large intestine,https://cancerimage.eu/ontology/EUCAIM#CLIN1063302
+Region of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000160
+Region of temporal cortex,https://cancerimage.eu/ontology/EUCAIM#BP1000439
+Regional lymph node structure,https://cancerimage.eu/ontology/EUCAIM#BP1000072
+Retention,https://cancerimage.eu/ontology/EUCAIM#CLIN1051007
+Retroperitoneal compartment structure,https://cancerimage.eu/ontology/EUCAIM#BP1000045
+Right anterior apical part of transition zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000018
+Right anterior apical peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000247
+Right anterior basal peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000027
+Right anterior basal transition zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000059
+Right anterior middle peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000099
+Right anterior middle transition zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000069
+Right apical anterior fibromuscular stroma of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000058
+Right apical peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000189
+Right apical transition zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000110
+Right basal anterior fibromuscular stroma of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000139
+Right basal peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000177
+Right basal transition zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000129
+Right breast structure,https://cancerimage.eu/ontology/EUCAIM#BP1000223
+Right colon structure,https://cancerimage.eu/ontology/EUCAIM#CLIN1063357
+Right lateral middle peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000218
+Right middle anterior fibromuscular stroma of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000046
+Right middle transition zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000049
+Right posterior apical part of transition zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000186
+Right posterior basal transition zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000196
+Right posterior middle transition zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000079
+Right posterolateral apical peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000047
+Right posterolateral basal peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000080
+Right posterolateral middle peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000128
+Right posteromedial apical peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000109
+Right posteromedial middle peripheral zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000015
+Right thorax structure,https://cancerimage.eu/ontology/EUCAIM#BP1000032
+Round mass,https://cancerimage.eu/ontology/EUCAIM#IMG1016514
+Sacrum,https://cancerimage.eu/ontology/EUCAIM#BP1000258
+Scalp and/or neck structure,https://cancerimage.eu/ontology/EUCAIM#BP1000066
+Seminal Vesicles,https://cancerimage.eu/ontology/EUCAIM#BP1000191
+Shoulder,https://cancerimage.eu/ontology/EUCAIM#BP1000042
+Sigmoid colon,https://cancerimage.eu/ontology/EUCAIM#CLIN1063757
+Sigmoid colon structure,https://cancerimage.eu/ontology/EUCAIM#CLIN1063627
+Skeletal system structure,https://cancerimage.eu/ontology/EUCAIM#BP1000404
+Skin structure,https://cancerimage.eu/ontology/EUCAIM#CLIN1063344
+Skull,https://cancerimage.eu/ontology/EUCAIM#BP1000135
+Skull foramen,https://cancerimage.eu/ontology/EUCAIM#BP1000215
+Small intestine,https://cancerimage.eu/ontology/EUCAIM#BP1000007
+Soft tissue,https://cancerimage.eu/ontology/EUCAIM#BP100040608
+Spinal meninges,https://cancerimage.eu/ontology/EUCAIM#BP1000307
+Spine,https://cancerimage.eu/ontology/EUCAIM#BP1000077
+Splenic flexure,https://cancerimage.eu/ontology/EUCAIM#CLIN1063384
+Splenic flexure of colon,https://cancerimage.eu/ontology/EUCAIM#BP1000262
+Stomach,https://cancerimage.eu/ontology/EUCAIM#BP1000302
+Structure of Broca's area,https://cancerimage.eu/ontology/EUCAIM#BP1000386
+"Structure of Brodmann areas 17 (striate cortex), 18 (parastriate cortex) and 19 (peristriate cortex) of the occipital lobe",https://cancerimage.eu/ontology/EUCAIM#BP1000415
+Structure of abdomen proper,https://cancerimage.eu/ontology/EUCAIM#BP1000073
+Structure of abdominopelvic organ,https://cancerimage.eu/ontology/EUCAIM#BP1000122
+Structure of abdominopelvic viscus,https://cancerimage.eu/ontology/EUCAIM#BP1000250
+Structure of ankle and/or foot,https://cancerimage.eu/ontology/EUCAIM#BP1000074
+Structure of anterior section of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000207
+Structure of apex of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000178
+Structure of body conduit,https://cancerimage.eu/ontology/EUCAIM#BP1000096
+Structure of bone organ,https://cancerimage.eu/ontology/EUCAIM#CLIN1063267
+Structure of brain meninges,https://cancerimage.eu/ontology/EUCAIM#CLIN1063279
+Structure of breast and/or endocrine system,https://cancerimage.eu/ontology/EUCAIM#BP1000033
+Structure of caudate lobe of liver,https://cancerimage.eu/ontology/EUCAIM#BP1000427
+Structure of cecum and/or colon and/or rectum,https://cancerimage.eu/ontology/EUCAIM#CLIN1063311
+Structure of central nervous system,https://cancerimage.eu/ontology/EUCAIM#CLIN1063274
+Structure of cerebral association fiber,https://cancerimage.eu/ontology/EUCAIM#BP1000406
+Structure of cerebral cortex,https://cancerimage.eu/ontology/EUCAIM#BP1000381
+Structure of compartment of abdomen,https://cancerimage.eu/ontology/EUCAIM#BP1000153
+Structure of cortex of frontal lobe,https://cancerimage.eu/ontology/EUCAIM#BP1000384
+Structure of cortex of occipital lobe,https://cancerimage.eu/ontology/EUCAIM#BP1000390
+Structure of cortex of parietal lobe,https://cancerimage.eu/ontology/EUCAIM#BP1000389
+Structure of cortex of temporal lobe,https://cancerimage.eu/ontology/EUCAIM#BP1000388
+Structure of diencephalon,https://cancerimage.eu/ontology/EUCAIM#BP1000394
+Structure of digestive system,https://cancerimage.eu/ontology/EUCAIM#CLIN1063419
+Structure of endocrine system,https://cancerimage.eu/ontology/EUCAIM#BP1000242
+Structure of female genital system in pelvic cavity,https://cancerimage.eu/ontology/EUCAIM#BP1000162
+Structure of female internal genital organ,https://cancerimage.eu/ontology/EUCAIM#BP1000181
+Structure of femur,https://cancerimage.eu/ontology/EUCAIM#BP1000019
+Structure of free lower limb,https://cancerimage.eu/ontology/EUCAIM#BP1000088
+Structure of free upper limb,https://cancerimage.eu/ontology/EUCAIM#BP1000009
+Structure of frontal pole,https://cancerimage.eu/ontology/EUCAIM#BP1000393
+Structure of genitourinary system,https://cancerimage.eu/ontology/EUCAIM#BP1000057
+Structure of great blood vessel (organ),https://cancerimage.eu/ontology/EUCAIM#BP1000259
+Structure of half of body lateral to midsagittal plane,https://cancerimage.eu/ontology/EUCAIM#BP1000043
+Structure of half of brain lateral to midsagittal plane,https://cancerimage.eu/ontology/EUCAIM#BP1000361
+Structure of half of thorax lateral to midsagittal plane,https://cancerimage.eu/ontology/EUCAIM#BP1000076
+Structure of half of trunk lateral to midsagittal plane,https://cancerimage.eu/ontology/EUCAIM#BP1000063
+Structure of joint region,https://cancerimage.eu/ontology/EUCAIM#BP1000010
+Structure of joint region of lower limb,https://cancerimage.eu/ontology/EUCAIM#BP1000034
+Structure of large artery,https://cancerimage.eu/ontology/EUCAIM#BP1000104
+Structure of large intestine,https://cancerimage.eu/ontology/EUCAIM#BP1000179
+Structure of lateral half of abdomen lateral to midsagittal plane,https://cancerimage.eu/ontology/EUCAIM#BP1000156
+Structure of left colic flexure,https://cancerimage.eu/ontology/EUCAIM#CLIN1063402
+Structure of left half of body,https://cancerimage.eu/ontology/EUCAIM#BP1000052
+Structure of left half of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000070
+Structure of left ovary,https://cancerimage.eu/ontology/EUCAIM#CLIN1063729
+Structure of lesser wing of sphenoid bone,https://cancerimage.eu/ontology/EUCAIM#BP1000195
+Structure of lobe of brain,https://cancerimage.eu/ontology/EUCAIM#BP1000362
+Structure of lobe of lung,https://cancerimage.eu/ontology/EUCAIM#BP1000111
+Structure of long bone of lower limb,https://cancerimage.eu/ontology/EUCAIM#BP1000029
+Structure of lower lobe of left lung,https://cancerimage.eu/ontology/EUCAIM#BP1000272
+Structure of lower lobe of lung,https://cancerimage.eu/ontology/EUCAIM#BP1000271
+Structure of lower lobe of right lung,https://cancerimage.eu/ontology/EUCAIM#BP1000273
+Structure of lung and/or mediastinum,https://cancerimage.eu/ontology/EUCAIM#BP1000013
+Structure of lymph node,https://cancerimage.eu/ontology/EUCAIM#BP1000202
+Structure of lymph node of left axilla,https://cancerimage.eu/ontology/EUCAIM#BP1000414
+Structure of lymph node of right axilla,https://cancerimage.eu/ontology/EUCAIM#BP1000413
+Structure of lymphatic system,https://cancerimage.eu/ontology/EUCAIM#BP1000175
+Structure of lymphatic system of axilla,https://cancerimage.eu/ontology/EUCAIM#BP1000119
+Structure of lymphatic system of upper limb,https://cancerimage.eu/ontology/EUCAIM#BP1000081
+Structure of mammary region,https://cancerimage.eu/ontology/EUCAIM#BP1000172
+Structure of middle lobe of lung,https://cancerimage.eu/ontology/EUCAIM#BP1000275
+Structure of middle lobe of right lung,https://cancerimage.eu/ontology/EUCAIM#BP1000277
+Structure of musculoskeletal system,https://cancerimage.eu/ontology/EUCAIM#BP1000403
+Structure of musculoskeletal system of cervical spine,https://cancerimage.eu/ontology/EUCAIM#BP1000065
+Structure of musculoskeletal system of lumbar spine,https://cancerimage.eu/ontology/EUCAIM#BP1000124
+Structure of musculoskeletal system of thoracic spine,https://cancerimage.eu/ontology/EUCAIM#BP1000095
+Structure of nervous system,https://cancerimage.eu/ontology/EUCAIM#CLIN1063272
+Structure of nervous tissue of brain,https://cancerimage.eu/ontology/EUCAIM#BP1000357
+Structure of orbital region,https://cancerimage.eu/ontology/EUCAIM#BP1000102
+Structure of organ in respiratory system,https://cancerimage.eu/ontology/EUCAIM#BP1000203
+Structure of organ within abdomen proper cavity,https://cancerimage.eu/ontology/EUCAIM#BP1000030
+Structure of organ within cavity of true pelvis,https://cancerimage.eu/ontology/EUCAIM#BP1000222
+Structure of pelvic segment of trunk,https://cancerimage.eu/ontology/EUCAIM#BP1000062
+Structure of pelvic viscus,https://cancerimage.eu/ontology/EUCAIM#BP1000134
+Structure of peripheral auditory system,https://cancerimage.eu/ontology/EUCAIM#BP1000174
+Structure of posterior arch of pelvic ring,https://cancerimage.eu/ontology/EUCAIM#BP1000253
+Structure of posterior section of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000005
+Structure of pulmopleural compartment,https://cancerimage.eu/ontology/EUCAIM#BP1000224
+Structure of right colic flexure,https://cancerimage.eu/ontology/EUCAIM#CLIN1063386
+Structure of right half of pelvis,https://cancerimage.eu/ontology/EUCAIM#BP1000132
+Structure of right half of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000028
+Structure of right lateral lobe of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000169
+Structure of right ovary,https://cancerimage.eu/ontology/EUCAIM#CLIN1063730
+Structure of shoulder and/or upper arm,https://cancerimage.eu/ontology/EUCAIM#BP1000239
+Structure of shoulder girdle region,https://cancerimage.eu/ontology/EUCAIM#BP1000234
+Structure of skin and/or mucous membrane,https://cancerimage.eu/ontology/EUCAIM#CLIN1063519
+Structure of skin and/or surface epithelium,https://cancerimage.eu/ontology/EUCAIM#CLIN1063332
+Structure of soft tissues of left upper extremity,https://cancerimage.eu/ontology/EUCAIM#BP1000411
+Structure of soft tissues of right upper extremity,https://cancerimage.eu/ontology/EUCAIM#BP1000412
+Structure of spheroidal joint,https://cancerimage.eu/ontology/EUCAIM#BP1000201
+Structure of subdivision of abdominopelvic compartment,https://cancerimage.eu/ontology/EUCAIM#BP1000133
+Structure of subdivision of nervous system,https://cancerimage.eu/ontology/EUCAIM#CLIN1063273
+Structure of subregion of head,https://cancerimage.eu/ontology/EUCAIM#BP1000418
+Structure of subregion of trunk,https://cancerimage.eu/ontology/EUCAIM#BP1000241
+Structure of surface region of upper back,https://cancerimage.eu/ontology/EUCAIM#BP1000281
+Structure of thoracic cavity and/or content,https://cancerimage.eu/ontology/EUCAIM#BP1000213
+Structure of thoracic viscus,https://cancerimage.eu/ontology/EUCAIM#BP1000232
+Structure of upper back,https://cancerimage.eu/ontology/EUCAIM#BP1000280
+Structure of upper lobe of left lung,https://cancerimage.eu/ontology/EUCAIM#BP1000269
+Structure of upper lobe of lung,https://cancerimage.eu/ontology/EUCAIM#BP1000263
+Structure of upper lobe of right lung,https://cancerimage.eu/ontology/EUCAIM#BP1000268
+Structure of upper urinary system,https://cancerimage.eu/ontology/EUCAIM#BP1000117
+Structure of urinary organ,https://cancerimage.eu/ontology/EUCAIM#BP1000147
+Structure of vertebral column and/or spinal cord,https://cancerimage.eu/ontology/EUCAIM#BP1000185
+Structure of vertebral region of cervical part of back,https://cancerimage.eu/ontology/EUCAIM#BP1000182
+Structure of vertebral region of lumbar part of back,https://cancerimage.eu/ontology/EUCAIM#BP1000054
+Structure of vertebral region of thoracic part of back,https://cancerimage.eu/ontology/EUCAIM#BP1000137
+Structure of viscus,https://cancerimage.eu/ontology/EUCAIM#BP1000093
+Structure of white matter of brain,https://cancerimage.eu/ontology/EUCAIM#BP1000356
+Subdivision of intra-abdominopelvic structure,https://cancerimage.eu/ontology/EUCAIM#BP1000180
+Supratentorial brain,https://cancerimage.eu/ontology/EUCAIM#BP1000365
+Supratentorial brain part,https://cancerimage.eu/ontology/EUCAIM#BP1000366
+Systemic artery of trunk,https://cancerimage.eu/ontology/EUCAIM#BP1000031
+Temporal brain region,https://cancerimage.eu/ontology/EUCAIM#BP1000421
+Temporal lobe,https://cancerimage.eu/ontology/EUCAIM#BP1000350
+Thalamus,https://cancerimage.eu/ontology/EUCAIM#BP1000376
+Thoracic segment of trunk,https://cancerimage.eu/ontology/EUCAIM#BP1000011
+Thoracic spine,https://cancerimage.eu/ontology/EUCAIM#BP1000194
+Thyroid,https://cancerimage.eu/ontology/EUCAIM#BP1000286
+Thyroid and/or parathyroid structures,https://cancerimage.eu/ontology/EUCAIM#BP1000285
+Thyroid part,https://cancerimage.eu/ontology/EUCAIM#BP1000287
+Topography unknown,https://cancerimage.eu/ontology/EUCAIM#BP1000266
+Transition zone of prostate,https://cancerimage.eu/ontology/EUCAIM#BP1000100
+Transverse colon,https://cancerimage.eu/ontology/EUCAIM#CLIN1063742
+Transverse colon structure,https://cancerimage.eu/ontology/EUCAIM#CLIN1063613
+Trunk structure,https://cancerimage.eu/ontology/EUCAIM#BP1000002
+Tumor budding,https://cancerimage.eu/ontology/EUCAIM#CLIN1059061
+Upper body part structure,https://cancerimage.eu/ontology/EUCAIM#BP1000097
+Upper body structure,https://cancerimage.eu/ontology/EUCAIM#BP1000289
+Upper extremity part,https://cancerimage.eu/ontology/EUCAIM#BP1000091
+Upper limb lymph node structure,https://cancerimage.eu/ontology/EUCAIM#BP1000048
+Upper-inner quadrant of breast,https://cancerimage.eu/ontology/EUCAIM#BP1000278
+Upper-outer quadrant of breast,https://cancerimage.eu/ontology/EUCAIM#BP1000276
+Urinary tract,https://cancerimage.eu/ontology/EUCAIM#BP1000044
+Uterus,https://cancerimage.eu/ontology/EUCAIM#BP1000085
+Uterus and fallopian tubes,https://cancerimage.eu/ontology/EUCAIM#BP1000221
+Uterus part,https://cancerimage.eu/ontology/EUCAIM#BP1000295
+"Uterus, NOS",https://cancerimage.eu/ontology/EUCAIM#BP1000291
+"Uterus, NOS",https://cancerimage.eu/ontology/EUCAIM#BP1000294
+Vagina,https://cancerimage.eu/ontology/EUCAIM#BP1000299
+"Vagina, NOS",https://cancerimage.eu/ontology/EUCAIM#BP1000300
+"Ventricle, NOS",https://cancerimage.eu/ontology/EUCAIM#BP1000353
+Vulva,https://cancerimage.eu/ontology/EUCAIM#BP1000400
+Vulval part,https://cancerimage.eu/ontology/EUCAIM#BP1000401
+Wernicke's area,https://cancerimage.eu/ontology/EUCAIM#BP1000440
+Zonal necrosis,https://cancerimage.eu/ontology/EUCAIM#CLIN1051019
+focal damage,https://cancerimage.eu/ontology/EUCAIM#IMG1016594
