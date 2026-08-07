@@ -22,9 +22,9 @@
 access-condition:DOWNLOAD
     a skos:Concept, dct:RightsStatement ;
     skos:inScheme
-        <https://eucaim.github.io/eucaim_dcat_ap/resource/authority/access-condition> ;
+        <https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/access-conditions/> ;
     skos:topConceptOf
-        <https://eucaim.github.io/eucaim_dcat_ap/resource/authority/access-condition> ;
+        <https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/access-conditions/> ;
     skos:notation "DOWNLOAD" ;
     skos:prefLabel "Download access"@en ;
     skos:definition
@@ -33,9 +33,9 @@ access-condition:DOWNLOAD
 access-condition:IN_SITU_PROCESSING
     a skos:Concept, dct:RightsStatement ;
     skos:inScheme
-        <https://eucaim.github.io/eucaim_dcat_ap/resource/authority/access-condition> ;
+        <https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/access-conditions/> ;
     skos:topConceptOf
-        <https://eucaim.github.io/eucaim_dcat_ap/resource/authority/access-condition> ;
+        <https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/access-conditions/> ;
     skos:notation "IN_SITU_PROCESSING" ;
     skos:prefLabel "In-situ processing"@en ;
     skos:definition
@@ -44,9 +44,9 @@ access-condition:IN_SITU_PROCESSING
 access-condition:REMOTE_PROCESSING
     a skos:Concept, dct:RightsStatement ;
     skos:inScheme
-        <https://eucaim.github.io/eucaim_dcat_ap/resource/authority/access-condition> ;
+        <https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/access-conditions/> ;
     skos:topConceptOf
-        <https://eucaim.github.io/eucaim_dcat_ap/resource/authority/access-condition> ;
+        <https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/access-conditions/> ;
     skos:notation "REMOTE_PROCESSING" ;
     skos:prefLabel
         "Remote processing without direct data access"@en ;
