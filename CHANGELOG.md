@@ -1,4 +1,4 @@
-# EUCAIM DCAT Application Profile — Dataset Changelog
+# EUCAIM DCAT Application Profile — Changelog
 
 This document describes the changes to the EUCAIM Dataset specification between version 1.0 and version 2.0.
 
@@ -161,13 +161,23 @@ Version 2.0 clarifies that:
 Version 2.0 introduces:
 
 - explicit definitions of Mandatory, Recommended, Conditional, and Optional;
-- a Requirement column in every property table;
-- processing-conformance requirements for EUCAIM catalogue harvesters;
+- explicit Mandatory (`M`), Recommended (`R`), Conditional (`C`), and Optional (`O`) requirement indicators; in the Dataset specification these are presented together with cardinality in the **Occurrence** column;- processing-conformance requirements for EUCAIM catalogue harvesters;
 - separate definitions of accepting and processing metadata;
 - rules for handling RDF properties not explicitly listed in the profile;
 - explicit interpretation of cardinalities for structured resources;
 - more normative Usage Notes using MUST, SHOULD, and MAY;
 - a reorganised section structure.
+
+## Controlled vocabularies
+
+Version 2.0 introduces or publishes the following EUCAIM controlled-vocabulary resources:
+
+- **Access Conditions** — describes whether access is provided through download, in-situ processing, or remote processing without direct data access.
+- **Data Use Conditions** — provides EUCAIM data-use and reuse conditions aligned with the Data Use Ontology.
+- **Segmentation Labels** — provides the EUCAIM concepts accepted as segmentation labels.
+
+The controlled vocabularies are published under
+[`releases/controlled-vocabularies`](https://github.com/EUCAIM/eucaim_dcat_ap/tree/main/releases/controlled-vocabularies).
 
 ## Migration guidance
 
@@ -190,22 +200,63 @@ Implementers migrating from v1.0 to v2.0 should:
 
 ### Distribution
 
-No Distribution properties were added or removed when migrating from
-HealthDCAT-AP Release 5 to Release 7. Property IRIs, ranges, and cardinalities
-remain unchanged.
+Version 2.0 updates the Distribution specification to align it with
+HealthDCAT-AP Release 7 and to provide more precise processing requirements
+for EUCAIM catalogue harvesters.
 
-Usage Notes were updated to provide more explicit controlled-vocabulary
-requirements:
+#### Structural and range changes
 
-- `dcatap:availability` MUST use the EU Planned Availability vocabulary.
-- `dct:format` MUST use the EU File Type vocabulary.
-- `dcat:compressFormat`, `dcat:mediaType`, and `dcat:packageFormat` SHOULD use
-  IANA Media Types where applicable.
-- `adms:status` MUST use the EU Distribution Status vocabulary where applicable.
-- `dcatap:applicableLegislation` may explicitly reference the EHDS Regulation
-  using `http://data.europa.eu/eli/reg/2025/327/oj`.
-- The guidance for licence, rights, language, and multilingual titles was
-  clarified.
+| Property | Version 1.0 | Version 2.0 |
+|---|---|---|
+| Access Service | `1..1` | `0..n` |
+| Byte Size | `dcat:byteSize`, range `xsd:decimal` | `dcat:byteSize`, range `xsd:nonNegativeInteger` |
+| Checksum | Direct use of `spdx:checksumValue` | `spdx:checksum` linking to a structured `spdx:Checksum` resource |
+| Checksum Algorithm | Direct `spdx:algorithm` value | `spdx:checksum / spdx:algorithm` |
+| Temporal Resolution | `dct:temporal` | `dcat:temporalResolution` |
+| Applicable Legislation | `rdfs:Resource` | `eli:LegalResource` |
+| Release Date | `rdfs:TemporalLiteral` | `rdfs:Literal` with an XML Schema temporal datatype |
+| Modification Date | `rdfs:TemporalLiteral` | `rdfs:Literal` with an XML Schema temporal datatype |
 
-These changes primarily strengthen controlled-vocabulary and implementation
-guidance and do not require changes to the Distribution data structure.
+#### Rights and access conditions
+
+Version 1.0 documented **Rights** and **Access Conditions** as separate rows
+using the same `dct:rights` property. Version 2.0 consolidates them into one
+repeatable `dct:rights` property with range `dct:RightsStatement`.
+
+Values may be selected from:
+
+- the [EUCAIM Access Conditions controlled vocabulary](https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/access-conditions/), describing how the Distribution can be accessed;
+- the [EUCAIM Data Use Conditions controlled vocabulary](https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/), describing permitted uses and reuse restrictions and aligning them with corresponding Data Use Ontology concepts.
+
+#### Checksum processing
+
+Version 2.0 explicitly documents the internal structure of `spdx:Checksum`.
+When a Checksum is provided, it must contain:
+
+- exactly one `spdx:checksumValue`;
+- exactly one `spdx:algorithm`.
+
+#### ODRL policy processing
+
+Version 2.0 defines the supported structure of an `odrl:Policy`, including:
+
+- `odrl:uid`;
+- `odrl:permission`;
+- `odrl:prohibition`;
+- `odrl:obligation`;
+- the `odrl:action` values associated with each Rule.
+
+Every Policy must contain at least one Permission, Prohibition, or Obligation.
+Every Rule must contain at least one action from the ODRL Common Actions
+vocabulary.
+
+#### Controlled-vocabulary guidance
+
+Version 2.0 also strengthens the controlled-vocabulary requirements:
+
+- `dcatap:availability` uses the EU Planned Availability authority table;
+- `dct:format` uses the EU File Type authority table;
+- `dcat:compressFormat`, `dcat:mediaType`, and `dcat:packageFormat` use IANA Media Types where applicable;
+- `adms:status` uses the EU Distribution Status authority table;
+- `dct:language` uses the EU Languages authority table;
+- `dcatap:applicableLegislation` may reference the EHDS Regulation using its ELI URI.
