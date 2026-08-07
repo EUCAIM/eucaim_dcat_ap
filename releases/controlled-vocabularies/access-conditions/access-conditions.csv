@@ -1,0 +1,4 @@
+label,conceptIRI
+Download access,https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/access-conditions/#DOWNLOAD
+In-situ processing,https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/access-conditions/#IN_SITU_PROCESSING
+Remote processing without direct data access,https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/access-conditions/#REMOTE_PROCESSING

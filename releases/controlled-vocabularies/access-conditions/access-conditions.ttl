@@ -1,0 +1,54 @@
+@prefix access-condition:
+    <https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/access-conditions/#> .
+
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/access-conditions/>
+    a skos:ConceptScheme ;
+    dct:title "EUCAIM Access Conditions"@en ;
+    dct:description
+        "Controlled vocabulary describing the conditions or modes under which access to an EUCAIM Dataset Distribution is provided."@en ;
+    dct:publisher <https://cancerimage.eu/> ;
+    dct:issued "2026-08-07"^^xsd:date ;
+    owl:versionInfo "1.0.0" ;
+    skos:hasTopConcept
+        access-condition:DOWNLOAD ,
+        access-condition:IN_SITU_PROCESSING ,
+        access-condition:REMOTE_PROCESSING .
+
+access-condition:DOWNLOAD
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme
+        <https://eucaim.github.io/eucaim_dcat_ap/resource/authority/access-condition> ;
+    skos:topConceptOf
+        <https://eucaim.github.io/eucaim_dcat_ap/resource/authority/access-condition> ;
+    skos:notation "DOWNLOAD" ;
+    skos:prefLabel "Download access"@en ;
+    skos:definition
+        "The data may be downloaded by an authorised user, subject to the applicable access procedure, policy, and legal conditions."@en .
+
+access-condition:IN_SITU_PROCESSING
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme
+        <https://eucaim.github.io/eucaim_dcat_ap/resource/authority/access-condition> ;
+    skos:topConceptOf
+        <https://eucaim.github.io/eucaim_dcat_ap/resource/authority/access-condition> ;
+    skos:notation "IN_SITU_PROCESSING" ;
+    skos:prefLabel "In-situ processing"@en ;
+    skos:definition
+        "Authorised users may access, view, and process the data within the secure environment in which the data are made available."@en .
+
+access-condition:REMOTE_PROCESSING
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme
+        <https://eucaim.github.io/eucaim_dcat_ap/resource/authority/access-condition> ;
+    skos:topConceptOf
+        <https://eucaim.github.io/eucaim_dcat_ap/resource/authority/access-condition> ;
+    skos:notation "REMOTE_PROCESSING" ;
+    skos:prefLabel
+        "Remote processing without direct data access"@en ;
+    skos:definition
+        "Authorised processing may be submitted to the environment holding the data, without providing the user with direct access to the underlying data."@en .
