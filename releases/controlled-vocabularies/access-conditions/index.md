@@ -2,6 +2,16 @@
 title: EUCAIM Access Conditions
 ---
 
+<style>
+h3:target {
+  padding: 0.5rem;
+  background-color: #fff3cd;
+  border-left: 4px solid #f0ad4e;
+  border-radius: 3px;
+  scroll-margin-top: 1rem;
+}
+</style>
+
 # EUCAIM Access Conditions
 
 The EUCAIM Access Conditions controlled vocabulary describes the conditions or
