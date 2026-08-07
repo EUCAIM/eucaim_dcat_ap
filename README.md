@@ -38,8 +38,8 @@ eucaim_dcat_ap/
         ├── Dataset.md
         └── Distribution.md
         └── examples/
-    │       ├── Dataset Examples.md
-    │       └── Distribution Examples.md
+            ├── Dataset Examples.md
+            └── Distribution Examples.md
 ```
 
 Each release contains the complete specification corresponding to a specific version of the EUCAIM DCAT Application Profile.
