@@ -21,7 +21,7 @@
         access-condition:REMOTE_PROCESSING .
 
 access-condition:DOWNLOAD
-    a skos:Concept, dct:RightsStatement ;
+    a skos:Concept, dct:RightsStatement, eucaim:SPEC1000024 ;
     skos:inScheme
         <https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/access-conditions/> ;
     skos:topConceptOf
@@ -43,7 +43,7 @@ access-condition:IN_SITU_PROCESSING
         "Authorised users may access, view, and process the data within the secure environment in which the data are made available."@en .
 
 access-condition:REMOTE_PROCESSING
-    a skos:Concept, dct:RightsStatement ;
+    a skos:Concept, dct:RightsStatement, eucaim:SPEC1000022 ;
     skos:inScheme
         <https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/access-conditions/> ;
     skos:topConceptOf

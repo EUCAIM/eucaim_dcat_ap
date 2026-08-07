@@ -2,7 +2,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix duo: <http://purl.obolibrary.org/obo/> .
-@prefix eucaim-duc: <https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/> .
+@prefix eucaim-duc: <https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/#> .
 
 eucaim-duc:
     a skos:ConceptScheme ;

@@ -27,17 +27,14 @@ eucaim-dcat-ap/
 │
 ├── README.md
 ├── CHANGELOG.md
-├── LICENSE
 └── releases/
     ├── v1.0/
-    │   ├── README.md
     │   ├── Dataset.md
     │   ├── Distribution.md
     │   └── examples/
     │       ├── Dataset Examples.md
     │       └── Distribution Examples.md
     └── v2.0/
-        ├── README.md
         ├── Dataset.md
         ├── Distribution.md
         └── examples/
@@ -159,8 +156,6 @@ Contributions should preserve compatibility with the underlying DCAT-AP and Heal
 ## License
 
 This repository is licensed under the **Apache License 2.0**.
-
-See the `LICENSE` file for details.
 
 ---
 
