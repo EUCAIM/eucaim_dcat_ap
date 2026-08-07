@@ -3,6 +3,7 @@
 
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix eucaim: <https://cancerimage.eu/ontology/EUCAIM#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -26,18 +27,18 @@ access-condition:DOWNLOAD
     skos:topConceptOf
         <https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/access-conditions/> ;
     skos:notation "DOWNLOAD" ;
-    skos:prefLabel "Download access"@en ;
+    skos:prefLabel "Authorisation to download the datasets"@en ;
     skos:definition
         "The data may be downloaded by an authorised user, subject to the applicable access procedure, policy, and legal conditions."@en .
 
 access-condition:IN_SITU_PROCESSING
-    a skos:Concept, dct:RightsStatement ;
+    a skos:Concept, dct:RightsStatement, eucaim:SPEC1000023 ;
     skos:inScheme
         <https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/access-conditions/> ;
     skos:topConceptOf
         <https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/access-conditions/> ;
     skos:notation "IN_SITU_PROCESSING" ;
-    skos:prefLabel "In-situ processing"@en ;
+    skos:prefLabel "Authorisation to access, view and process in-situ the datasets"@en ;
     skos:definition
         "Authorised users may access, view, and process the data within the secure environment in which the data are made available."@en .
 
@@ -49,6 +50,6 @@ access-condition:REMOTE_PROCESSING
         <https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/access-conditions/> ;
     skos:notation "REMOTE_PROCESSING" ;
     skos:prefLabel
-        "Remote processing without direct data access"@en ;
+        "Authorisation to remotely process the datasets without the ability to access and visualise data, even remotely"@en ;
     skos:definition
         "Authorised processing may be submitted to the environment holding the data, without providing the user with direct access to the underlying data."@en .

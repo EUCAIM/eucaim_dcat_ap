@@ -174,8 +174,8 @@ The EUCAIM DCAT Application Profile extends the **HealthDCAT Application Profile
 
 ### Authors
 
-- **Valia Kalokyri** (Foundation for Research and Technology – Hellas, Institute of Computer Science, FORTH) – Lead author
-- **Mirna El Ghosh** (Sorbonne Université, Inserm, Université Sorbonne Paris-Nord, LIMICS) – Major contributor
+- **Valia Kalokyri** (Foundation for Research and Technology – Hellas, Institute of Computer Science, FORTH) – Author
+- **Mirna El Ghosh** (Sorbonne Université, Inserm, Université Sorbonne Paris-Nord, LIMICS) –  Contributor
 
 ### Reviewers
 

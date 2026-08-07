@@ -1,0 +1,24 @@
+label,conceptIRI,duoIRI
+Disease specific research,https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/#DISEASE_SPECIFIC_RESEARCH,http://purl.obolibrary.org/obo/DUO_0000007
+General research use,https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/#GENERAL_RESEARCH_USE,http://purl.obolibrary.org/obo/DUO_0000042
+Health or medical or biomedical research,https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/#HEALTH_MEDICAL_BIOMEDICAL_RESEARCH,http://purl.obolibrary.org/obo/DUO_0000006
+No restriction,https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/#NO_RESTRICTION,http://purl.obolibrary.org/obo/DUO_0000004
+Population origins or ancestry research only,https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/#POPULATION_ORIGINS_ANCESTRY_RESEARCH_ONLY,http://purl.obolibrary.org/obo/DUO_0000011
+Clinical care use,https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/#CLINICAL_CARE_USE,http://purl.obolibrary.org/obo/DUO_0000043
+Collaboration required,https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/#COLLABORATION_REQUIRED,http://purl.obolibrary.org/obo/DUO_0000020
+Ethics approval required,https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/#ETHICS_APPROVAL_REQUIRED,http://purl.obolibrary.org/obo/DUO_0000021
+Genetic studies only,https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/#GENETIC_STUDIES_ONLY,http://purl.obolibrary.org/obo/DUO_0000016
+Geographical restriction,https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/#GEOGRAPHICAL_RESTRICTION,http://purl.obolibrary.org/obo/DUO_0000022
+Institution specific restriction,https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/#INSTITUTION_SPECIFIC_RESTRICTION,http://purl.obolibrary.org/obo/DUO_0000028
+No general methods research,https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/#NO_GENERAL_METHODS_RESEARCH,http://purl.obolibrary.org/obo/DUO_0000015
+Non-commercial use only,https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/#NON_COMMERCIAL_USE_ONLY,http://purl.obolibrary.org/obo/DUO_0000046
+Not for profit organisation use only,https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/#NOT_FOR_PROFIT_ORGANISATION_USE_ONLY,http://purl.obolibrary.org/obo/DUO_0000045
+"Not for profit, non-commercial use only",https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/#NOT_FOR_PROFIT_NON_COMMERCIAL_USE_ONLY,http://purl.obolibrary.org/obo/DUO_0000018
+Population origins or ancestry research prohibited,https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/#POPULATION_ORIGINS_ANCESTRY_RESEARCH_PROHIBITED,http://purl.obolibrary.org/obo/DUO_0000044
+Project specific restriction,https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/#PROJECT_SPECIFIC_RESTRICTION,http://purl.obolibrary.org/obo/DUO_0000027
+Publication moratorium,https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/#PUBLICATION_MORATORIUM,http://purl.obolibrary.org/obo/DUO_0000024
+Publication required,https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/#PUBLICATION_REQUIRED,http://purl.obolibrary.org/obo/DUO_0000019
+Research specific restrictions,https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/#RESEARCH_SPECIFIC_RESTRICTIONS,http://purl.obolibrary.org/obo/DUO_0000012
+Return to database or resource,https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/#RETURN_TO_DATABASE_OR_RESOURCE,http://purl.obolibrary.org/obo/DUO_0000029
+Time limit on use,https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/#TIME_LIMIT_ON_USE,http://purl.obolibrary.org/obo/DUO_0000025
+User specific restriction,https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/#USER_SPECIFIC_RESTRICTION,http://purl.obolibrary.org/obo/DUO_0000026

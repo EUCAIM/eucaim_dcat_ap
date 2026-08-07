@@ -1,0 +1,172 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix duo: <http://purl.obolibrary.org/obo/> .
+@prefix eucaim-duc: <https://eucaim.github.io/eucaim_dcat_ap/releases/controlled-vocabularies/data-use-conditions/> .
+
+eucaim-duc:
+    a skos:ConceptScheme ;
+    dct:title "EUCAIM Data Use Conditions"@en ;
+    dct:description "Controlled vocabulary of data-use permissions and modifiers used to describe rights and reuse conditions for EUCAIM resources. The concepts are aligned with the Data Use Ontology (DUO)."@en ;
+    skos:prefLabel "EUCAIM Data Use Conditions"@en .
+
+eucaim-duc:DISEASE_SPECIFIC_RESEARCH
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme eucaim-duc: ;
+    skos:prefLabel "Disease specific research"@en ;
+    skos:notation "DUO_0000007" ;
+    skos:exactMatch duo:DUO_0000007 .
+
+eucaim-duc:GENERAL_RESEARCH_USE
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme eucaim-duc: ;
+    skos:prefLabel "General research use"@en ;
+    skos:notation "DUO_0000042" ;
+    skos:exactMatch duo:DUO_0000042 .
+
+eucaim-duc:HEALTH_MEDICAL_BIOMEDICAL_RESEARCH
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme eucaim-duc: ;
+    skos:prefLabel "Health or medical or biomedical research"@en ;
+    skos:notation "DUO_0000006" ;
+    skos:exactMatch duo:DUO_0000006 .
+
+eucaim-duc:NO_RESTRICTION
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme eucaim-duc: ;
+    skos:prefLabel "No restriction"@en ;
+    skos:notation "DUO_0000004" ;
+    skos:exactMatch duo:DUO_0000004 .
+
+eucaim-duc:POPULATION_ORIGINS_ANCESTRY_RESEARCH_ONLY
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme eucaim-duc: ;
+    skos:prefLabel "Population origins or ancestry research only"@en ;
+    skos:notation "DUO_0000011" ;
+    skos:exactMatch duo:DUO_0000011 .
+
+eucaim-duc:CLINICAL_CARE_USE
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme eucaim-duc: ;
+    skos:prefLabel "Clinical care use"@en ;
+    skos:notation "DUO_0000043" ;
+    skos:exactMatch duo:DUO_0000043 .
+
+eucaim-duc:COLLABORATION_REQUIRED
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme eucaim-duc: ;
+    skos:prefLabel "Collaboration required"@en ;
+    skos:notation "DUO_0000020" ;
+    skos:exactMatch duo:DUO_0000020 .
+
+eucaim-duc:ETHICS_APPROVAL_REQUIRED
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme eucaim-duc: ;
+    skos:prefLabel "Ethics approval required"@en ;
+    skos:notation "DUO_0000021" ;
+    skos:exactMatch duo:DUO_0000021 .
+
+eucaim-duc:GENETIC_STUDIES_ONLY
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme eucaim-duc: ;
+    skos:prefLabel "Genetic studies only"@en ;
+    skos:notation "DUO_0000016" ;
+    skos:exactMatch duo:DUO_0000016 .
+
+eucaim-duc:GEOGRAPHICAL_RESTRICTION
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme eucaim-duc: ;
+    skos:prefLabel "Geographical restriction"@en ;
+    skos:notation "DUO_0000022" ;
+    skos:exactMatch duo:DUO_0000022 .
+
+eucaim-duc:INSTITUTION_SPECIFIC_RESTRICTION
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme eucaim-duc: ;
+    skos:prefLabel "Institution specific restriction"@en ;
+    skos:notation "DUO_0000028" ;
+    skos:exactMatch duo:DUO_0000028 .
+
+eucaim-duc:NO_GENERAL_METHODS_RESEARCH
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme eucaim-duc: ;
+    skos:prefLabel "No general methods research"@en ;
+    skos:notation "DUO_0000015" ;
+    skos:exactMatch duo:DUO_0000015 .
+
+eucaim-duc:NON_COMMERCIAL_USE_ONLY
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme eucaim-duc: ;
+    skos:prefLabel "Non-commercial use only"@en ;
+    skos:notation "DUO_0000046" ;
+    skos:exactMatch duo:DUO_0000046 .
+
+eucaim-duc:NOT_FOR_PROFIT_ORGANISATION_USE_ONLY
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme eucaim-duc: ;
+    skos:prefLabel "Not for profit organisation use only"@en ;
+    skos:notation "DUO_0000045" ;
+    skos:exactMatch duo:DUO_0000045 .
+
+eucaim-duc:NOT_FOR_PROFIT_NON_COMMERCIAL_USE_ONLY
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme eucaim-duc: ;
+    skos:prefLabel "Not for profit, non-commercial use only"@en ;
+    skos:notation "DUO_0000018" ;
+    skos:exactMatch duo:DUO_0000018 .
+
+eucaim-duc:POPULATION_ORIGINS_ANCESTRY_RESEARCH_PROHIBITED
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme eucaim-duc: ;
+    skos:prefLabel "Population origins or ancestry research prohibited"@en ;
+    skos:notation "DUO_0000044" ;
+    skos:exactMatch duo:DUO_0000044 .
+
+eucaim-duc:PROJECT_SPECIFIC_RESTRICTION
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme eucaim-duc: ;
+    skos:prefLabel "Project specific restriction"@en ;
+    skos:notation "DUO_0000027" ;
+    skos:exactMatch duo:DUO_0000027 .
+
+eucaim-duc:PUBLICATION_MORATORIUM
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme eucaim-duc: ;
+    skos:prefLabel "Publication moratorium"@en ;
+    skos:notation "DUO_0000024" ;
+    skos:exactMatch duo:DUO_0000024 .
+
+eucaim-duc:PUBLICATION_REQUIRED
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme eucaim-duc: ;
+    skos:prefLabel "Publication required"@en ;
+    skos:notation "DUO_0000019" ;
+    skos:exactMatch duo:DUO_0000019 .
+
+eucaim-duc:RESEARCH_SPECIFIC_RESTRICTIONS
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme eucaim-duc: ;
+    skos:prefLabel "Research specific restrictions"@en ;
+    skos:notation "DUO_0000012" ;
+    skos:exactMatch duo:DUO_0000012 .
+
+eucaim-duc:RETURN_TO_DATABASE_OR_RESOURCE
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme eucaim-duc: ;
+    skos:prefLabel "Return to database or resource"@en ;
+    skos:notation "DUO_0000029" ;
+    skos:exactMatch duo:DUO_0000029 .
+
+eucaim-duc:TIME_LIMIT_ON_USE
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme eucaim-duc: ;
+    skos:prefLabel "Time limit on use"@en ;
+    skos:notation "DUO_0000025" ;
+    skos:exactMatch duo:DUO_0000025 .
+
+eucaim-duc:USER_SPECIFIC_RESTRICTION
+    a skos:Concept, dct:RightsStatement ;
+    skos:inScheme eucaim-duc: ;
+    skos:prefLabel "User specific restriction"@en ;
+    skos:notation "DUO_0000026" ;
+    skos:exactMatch duo:DUO_0000026 .

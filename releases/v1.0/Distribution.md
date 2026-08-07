@@ -79,7 +79,7 @@ The Rights & Policies section describes the legal framework governing access and
 | **License** | DCAT-AP v3 | `dct:license` | `dct:LicenseDocument` | **0..1** | Licence governing reuse of the Distribution. | Use canonical IRIs whenever possible (e.g. Creative Commons licences). |
 | **Rights** | DCAT-AP v3 | `dct:rights` | `dct:RightsStatement` | **0..1** | Rights statement associated with the Distribution. | Describe access restrictions and intellectual property rights. |
 | **Has Policy** | DCAT-AP v3 | `odrl:hasPolicy` | `odrl:Policy` | **0..1** | Machine-readable usage policy. | Use ODRL to express permissions, prohibitions and obligations. |
-| **Access Conditions** | EUCAIM DCAT-AP | `dct:rights` | `eucaim:DatasetAccessCondition` | **1..1** | Conditions under which access to the Distribution is granted. | One of the predefined EUCAIM access conditions: download, in-situ processing, or remote processing without direct data access. |
+| **Access Conditions** | EUCAIM DCAT-AP | `dct:rights` | `eucaim:SPEC1000021` | **1..1** | Conditions under which access to the Distribution is granted. | One of the predefined EUCAIM access conditions: download, in-situ processing, or remote processing without direct data access. |
 
 ---
 
