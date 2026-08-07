@@ -26,6 +26,7 @@ Each released version of the application profile is maintained independently und
 eucaim-dcat-ap/
 │
 ├── README.md
+├── CHANGELOG.md
 ├── LICENSE
 └── releases/
     ├── v1.0/
@@ -36,10 +37,17 @@ eucaim-dcat-ap/
     │       ├── Dataset Examples.md
     │       └── Distribution Examples.md
     └── v2.0/
-        └── ...
+        ├── README.md
+        ├── Dataset.md
+        ├── Distribution.md
+        └── examples/
+            ├── Dataset Examples.md
+            └── Distribution Examples.md
 ```
 
 Each release contains the complete specification corresponding to a specific version of the EUCAIM DCAT Application Profile.
+
+The root-level [`CHANGELOG.md`](CHANGELOG.md) describes changes between releases, including migration-relevant changes to properties, ranges, cardinalities, controlled vocabularies, and supporting resource structures.
 
 ---
 
@@ -47,9 +55,10 @@ Each release contains the complete specification corresponding to a specific ver
 
 | Version | Based on | Status |
 |----------|----------|--------|
-| **v1.0** | HealthDCAT-AP Release 5 | Final |
+| **v1.0** | HealthDCAT-AP Release 5 | Previous stable release |
+| **v2.0** | HealthDCAT-AP Release 7 | Current release |
 
-Future releases will be added as the profile evolves alongside HealthDCAT-AP.
+Version 2.0 updates the profile to HealthDCAT-AP Release 7 while retaining the cancer-imaging-specific metadata introduced by EUCAIM. It also provides more explicit implementation guidance for structured resources such as Agents, Contact Points, Checksums, Attributions, Relationships, and ODRL Policies.
 
 ---
 
@@ -75,6 +84,8 @@ Defines the metadata properties describing a cancer imaging dataset, including:
 - relationships
 - dates and versioning
 
+Version 2.0 additionally documents structured-data and variable metadata, the Dataset Custodian, expanded contact-point information, and the supported properties of nested resources.
+
 ### Distribution
 
 Defines the metadata properties describing a dataset distribution, including:
@@ -85,9 +96,25 @@ Defines the metadata properties describing a dataset distribution, including:
 - rights and policies
 - lifecycle information
 
+Version 2.0 aligns Distribution usage guidance with HealthDCAT-AP Release 7, including the applicable controlled vocabularies for availability, file format, media type, packaging, and lifecycle status. It also explicitly documents the supported SPDX Checksum and ODRL Policy structures.
+
 ### Examples
 
-Machine-readable RDF/Turtle examples illustrating how Dataset and Distribution metadata can be represented using the EUCAIM DCAT Application Profile.
+Markdown documentation containing RDF/Turtle examples that illustrate how individual Dataset and Distribution properties can be represented using the EUCAIM DCAT Application Profile.
+
+---
+
+## Changes between releases
+
+The [`CHANGELOG.md`](CHANGELOG.md) provides a consolidated description of the changes introduced in each release.
+
+For the migration from v1.0 to v2.0, it identifies:
+
+- properties added or removed;
+- changes to property paths, ranges, cardinalities, and controlled vocabularies;
+- changes inherited from HealthDCAT-AP Release 7;
+- expanded processing requirements for nested RDF resources;
+- implementation guidance for migrating catalogue harvesters and metadata records.
 
 ---
 
@@ -95,12 +122,13 @@ Machine-readable RDF/Turtle examples illustrating how Dataset and Distribution m
 
 The repository follows **Semantic Versioning**.
 
-Major versions correspond to significant revisions of the application profile, typically aligned with new releases of HealthDCAT-AP.
+Major versions correspond to significant revisions of the application profile, including alignment with a new HealthDCAT-AP release or changes that may require metadata providers and catalogue implementations to update their mappings.
 
 | Version | Description |
 |----------|-------------|
 | Major | Breaking changes or alignment with a new HealthDCAT-AP release |
 | Minor | Backwards-compatible additions or clarifications |
+| Patch | Corrections that do not change the metadata model |
 
 ---
 
