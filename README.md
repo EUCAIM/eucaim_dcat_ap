@@ -22,7 +22,7 @@ The EUCAIM DCAT Application Profile aims to:
 
 Each released version of the application profile is maintained independently under the `releases/` directory.
 
-```text
+```
 eucaim_dcat_ap/
 ├── README.md
 ├── CHANGELOG.md
@@ -40,6 +40,7 @@ eucaim_dcat_ap/
         └── examples/
     │       ├── Dataset Examples.md
     │       └── Distribution Examples.md
+```
 
 Each release contains the complete specification corresponding to a specific version of the EUCAIM DCAT Application Profile.
 
