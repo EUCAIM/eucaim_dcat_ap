@@ -26,7 +26,7 @@ Each released version of the application profile is maintained independently und
 eucaim_dcat_ap/
 ├── README.md
 ├── CHANGELOG.md
-├──releases/
+└──releases/
     ├── controlled-vocabularies/
     ├── v1.0/
     │   ├── Catalogue.md
@@ -61,6 +61,15 @@ Version 2.0 updates the profile to HealthDCAT-AP Release 7 while retaining the c
 ## Specification
 
 Each release contains the following documentation.
+
+### Catalogue
+
+Defines the metadata properties describing the EUCAIM Catalogue, including its
+title, description, publisher, creator, datasets, services, spatial and temporal
+coverage, applicable legislation, licence, and rights.
+
+Version 1.0 is aligned with HealthDCAT-AP Release 5, while version 2.0 is aligned
+with HealthDCAT-AP Release 7.
 
 ### Dataset
 

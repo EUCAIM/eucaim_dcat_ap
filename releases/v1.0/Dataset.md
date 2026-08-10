@@ -99,7 +99,7 @@ The Publisher section describes the organisation responsible for making the Data
 A Health Data Access Body is represented as an Agent. Its name and contact point describe the competent body responsible for providing access to the Dataset.
 
 | Property | EUCAIM Modification | Property Path | Range | Occurrence | Description | Usage Notes |
-|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|
 | Health Data Access Body | — | `healthdcatap:hdab` | `foaf:Agent` | `1..1` **M**  | Health Data Access Body responsible for providing access to the Dataset. | Identify the competent Health Data Access Body responsible for access to the Dataset under the EHDS. During the EHDS transition period, the value may remain temporarily unpopulated where the competent Health Data Access Body has not yet been formally designated or cannot yet be determined. A placeholder organisation MUST NOT be supplied. EUCAIM may populate or update this value centrally once the relevant national or regional Health Data Access Body has been officially identified. |
 | Health Data Access Body Name | — | `healthdcatap:hdab / foaf:name` | `rdfs:Literal` |  `1..n` **M** | Official name of the Health Data Access Body. | Use the official name of the competent Health Data Access Body. It may be repeated for different language versions. |
 | Health Data Access Body Type | — | `healthdcatap:hdab / dct:type` | `skos:Concept` | `0..1` **O** | Nature or category of the Health Data Access Body. | When provided, the value MUST be selected from the [HealthDCAT-AP Publisher Type controlled vocabulary](https://hdeu-dcat.acceptance.data.health.europa.eu/resource/authority/publisher-type/). The most specific applicable concept SHOULD be used. |
