@@ -161,7 +161,8 @@ Version 2.0 clarifies that:
 Version 2.0 introduces:
 
 - explicit definitions of Mandatory, Recommended, Conditional, and Optional;
-- explicit Mandatory (`M`), Recommended (`R`), Conditional (`C`), and Optional (`O`) requirement indicators; in the Dataset specification these are presented together with cardinality in the **Occurrence** column;- processing-conformance requirements for EUCAIM catalogue harvesters;
+- explicit Mandatory (`M`), Recommended (`R`), Conditional (`C`), and Optional (`O`) requirement indicators; in the Dataset specification these are presented together with cardinality in the **Occurrence** column;
+- processing-conformance requirements for EUCAIM catalogue harvesters;
 - separate definitions of accepting and processing metadata;
 - rules for handling RDF properties not explicitly listed in the profile;
 - explicit interpretation of cardinalities for structured resources;

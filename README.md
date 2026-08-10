@@ -26,20 +26,19 @@ Each released version of the application profile is maintained independently und
 eucaim_dcat_ap/
 ├── README.md
 ├── CHANGELOG.md
-└── releases/
+├──releases/
     ├── controlled-vocabularies/
     ├── v1.0/
+    │   ├── Catalogue.md
     │   ├── Dataset.md
     │   ├── Distribution.md
     │   └── examples/
     │       ├── Dataset Examples.md
     │       └── Distribution Examples.md
     └── v2.0/
+        ├── Catalogue.md
         ├── Dataset.md
         └── Distribution.md
-        └── examples/
-            ├── Dataset Examples.md
-            └── Distribution Examples.md
 ```
 
 Each release contains the complete specification corresponding to a specific version of the EUCAIM DCAT Application Profile.
