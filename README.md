@@ -26,7 +26,8 @@ Each released version of the application profile is maintained independently und
 eucaim_dcat_ap/
 ├── README.md
 ├── CHANGELOG.md
-└──releases/
+├── LICENSE
+└── releases/
     ├── controlled-vocabularies/
     ├── v1.0/
     │   ├── Catalogue.md

@@ -1,6 +1,6 @@
 # EUCAIM DCAT Application Profile — Changelog
 
-This document describes the changes to the EUCAIM Dataset specification between version 1.0 and version 2.0.
+This document describes changes to the EUCAIM DCAT Application Profile between versions 1.0 and 2.0.
 
 | EUCAIM version | Base application profile |
 |---|---|
@@ -199,7 +199,7 @@ Implementers migrating from v1.0 to v2.0 should:
 > Most additional rows in v2.0 document attributes of existing structured resources. They do not all represent new predicates directly attached to `dcat:Dataset`. Implementations should distinguish new Dataset fields from expanded processing requirements for nested RDF resources.
 
 
-### Distribution
+## Distribution
 
 Version 2.0 updates the Distribution specification to align it with
 HealthDCAT-AP Release 7 and to provide more precise processing requirements
