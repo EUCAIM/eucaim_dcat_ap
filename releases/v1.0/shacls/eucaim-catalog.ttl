@@ -1,0 +1,197 @@
+@prefix schema: <http://schema.org/> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix adms_status: <http://purl.org/adms/status/> .
+@prefix odrl2: <http://www.w3.org/ns/odrl/2/> .
+@prefix disco: <http://rdf-vocabulary.ddialliance.org/discovery#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix dqv: <http://www.w3.org/ns/dqv#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix eucaim: <https://cancerimage.eu/ontology/EUCAIM#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
+@prefix healthdcatap: <http://healthdataportal.eu/ns/health#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix hri: <http://data.health-ri.nl/core/p2#> .
+@prefix linkml: <https://w3id.org/linkml/> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcatap: <http://data.europa.eu/r5r/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix xls2rdf: <https://xls2rdf.sparna.fr/vocabulary#> .
+@prefix dcatv3: <https://www.w3.org/ns/dcat/3#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix dpv: <https://w3id.org/dpv#> .
+@prefix dqv-pd: <https://w3id.org/dpv/dpv-pd#> .
+@prefix eu: <http://publications.europa.eu/resource/authority/access-right/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dash: <http://datashapes.org/dash#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix status: <http://publications.europa.eu/resource/authority/distribution-status/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+
+eucaim:aux-CatalogShape a owl:Ontology;
+  rdfs:label "Excel template for Catalog class"@en;
+  rdfs:comment "Excel template for Catalog class"@en;
+  dct:description "This is an excel template for Catalog class in Health RI Core plateau 2."@en;
+  owl:versionInfo "0.1" .
+
+eucaim:CatalogShape a sh:NodeShape;
+  rdfs:label "Catalog"@en;
+  sh:targetClass dcat:Catalog;
+  sh:property <https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dcatap:applicableLegislation>,
+    <https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dcat:catalog>, <https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dct:creator>,
+    <https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dcat:dataset>, <https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dct:description>,
+    <https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dct:spatial>, <https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dct:hasPart>,
+    <https://cancerimage.eu/ontology/EUCAIM#CatalogShape/foaf:homepage>, <https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dct:language>,
+    <https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dct:license>, <https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dct:modified>,
+    <https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dct:publisher>, <https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dct:issued>,
+    <https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dct:rights>, <https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dcat:service>,
+    <https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dct:temporal>, <https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dcat:themeTaxonomy>,
+    <https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dct:title> .
+
+<https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dcatap:applicableLegislation>
+  sh:path dcatap:applicableLegislation;
+  sh:name "applicable legislation"@en;
+  sh:description "The legislation that mandates the creation or management of the Catalogue."@en;
+  sh:minCount 1;
+  sh:nodeKind sh:IRI;
+  dash:viewer dash:URIViewer;
+  dash:editor dash:URIEditor .
+
+<https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dcat:catalog> sh:path dcat:catalog;
+  sh:name "catalog"@en;
+  sh:description "A catalogue whose contents are of interest in the context of this catalogue."@en;
+  sh:nodeKind sh:IRI;
+  dash:viewer dash:URIViewer;
+  dash:editor dash:URIEditor .
+
+<https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dct:creator> sh:path dct:creator;
+  sh:name "creator"@en;
+  sh:description "An entity responsible for the creation of the catalogue."@en;
+  sh:maxCount 1;
+  sh:node eucaim:AgentShape;
+  dash:viewer dash:DetailsViewer;
+  dash:editor dash:BlankNodeEditor .
+
+<https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dcat:dataset> sh:path dcat:dataset;
+  sh:name "dataset"@en;
+  sh:description "A Dataset that is part of the Catalogue."@en .
+
+<https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dct:description> sh:path dct:description;
+  sh:name "description"@en;
+  sh:description "A free-text account of the Catalogue."@en;
+  sh:minCount 1;
+  sh:nodeKind sh:Literal;
+  sh:uniqueLang true;
+  dash:viewer dash:LiteralViewer;
+  dash:editor dash:TextAreaEditor .
+
+<https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dct:spatial> sh:path dct:spatial;
+  sh:name "geographical coverage"@en;
+  sh:description "A geographical area covered by the Catalogue."@en;
+  sh:nodeKind sh:IRI;
+  dash:viewer dash:URIViewer;
+  dash:editor dash:URIEditor .
+
+<https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dct:hasPart> sh:path dct:hasPart;
+  sh:name "has part"@en;
+  sh:description "A related Catalogue that is part of the described Catalogue."@en;
+  sh:nodeKind sh:IRI;
+  dash:viewer dash:URIViewer;
+  dash:editor dash:URIEditor .
+
+<https://cancerimage.eu/ontology/EUCAIM#CatalogShape/foaf:homepage> sh:path foaf:homepage;
+  sh:name "home page"@en;
+  sh:description "A web page that acts as the main page for the Catalogue."@en;
+  sh:maxCount 1;
+  sh:nodeKind sh:IRI;
+  dash:viewer dash:URIViewer;
+  dash:editor dash:URIEditor .
+
+<https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dct:language> sh:path dct:language;
+  sh:name "language"@en;
+  sh:description "A language used in the textual metadata describing titles, descriptions, etc. of the Datasets in the Catalogue."@en;
+  sh:nodeKind sh:IRI;
+  dash:viewer dash:URIViewer;
+  dash:editor dash:URIEditor .
+
+<https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dct:license> sh:path dct:license;
+  sh:name "licence"@en;
+  sh:description "A licence under which the Catalogue can be used or reused."@en;
+  sh:maxCount 1;
+  sh:nodeKind sh:IRI;
+  dash:viewer dash:URIViewer;
+  dash:editor dash:URIEditor .
+
+<https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dct:modified> sh:path dct:modified;
+  sh:name "modification date"@en;
+  sh:description "The most recent date on which the Catalogue was modified."@en;
+  sh:maxCount 1;
+  sh:nodeKind sh:Literal;
+  sh:datatype xsd:dateTime;
+  sh:pattern "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$";
+  dash:viewer dash:LiteralViewer;
+  dash:editor dash:DateTimePickerEditor .
+
+<https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dct:publisher> sh:path dct:publisher;
+  sh:name "publisher"@en;
+  sh:description "An entity (organisation) responsible for making the Catalogue available."@en;
+  sh:maxCount 1;
+  sh:node eucaim:OrganizationShape;
+  dash:viewer dash:DetailsViewer;
+  dash:editor dash:BlankNodeEditor .
+
+<https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dct:issued> sh:path dct:issued;
+  sh:name "release date"@en;
+  sh:description "The date of formal issuance (e.g., publication) of the Catalogue."@en;
+  sh:maxCount 1;
+  sh:nodeKind sh:Literal;
+  sh:datatype xsd:dateTime;
+  sh:pattern "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$";
+  dash:viewer dash:LiteralViewer;
+  dash:editor dash:DateTimePickerEditor .
+
+<https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dct:rights> sh:path dct:rights;
+  sh:name "rights"@en;
+  sh:description "A statement that specifies rights associated with the Catalogue."@en;
+  sh:nodeKind sh:IRI;
+  dash:viewer dash:URIViewer;
+  dash:editor dash:URIEditor .
+
+<https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dcat:service> sh:path dcat:service;
+  sh:name "service"@en;
+  sh:description "A site or end-point (Data Service) that is listed in the Catalogue."@en;
+  sh:nodeKind sh:IRI;
+  dash:viewer dash:URIViewer;
+  dash:editor dash:URIEditor .
+
+<https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dct:temporal> sh:path dct:temporal;
+  sh:name "temporal coverage"@en;
+  sh:description "A temporal period that the Catalogue covers."@en;
+  sh:node eucaim:PeriodOfTimeShape;
+  dash:viewer dash:DetailsViewer;
+  dash:editor dash:BlankNodeEditor .
+
+<https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dcat:themeTaxonomy> sh:path dcat:themeTaxonomy;
+  sh:name "themes"@en;
+  sh:description "A knowledge organization system used to classify the Resources that are in the Catalogue."@en;
+  sh:nodeKind sh:IRI;
+  dash:viewer dash:URIViewer;
+  dash:editor dash:URIEditor .
+
+<https://cancerimage.eu/ontology/EUCAIM#CatalogShape/dct:title> sh:path dct:title;
+  sh:name "title"@en;
+  sh:description "A name given to the Catalogue."@en;
+  sh:minCount 1;
+  sh:nodeKind sh:Literal;
+  sh:uniqueLang true;
+  dash:viewer dash:LiteralViewer;
+  dash:editor dash:TextFieldEditor .
