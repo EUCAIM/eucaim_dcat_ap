@@ -180,6 +180,7 @@ The EUCAIM DCAT Application Profile extends the **HealthDCAT Application Profile
 
 - **Valia Kalokyri** (Foundation for Research and Technology – Hellas, Institute of Computer Science, FORTH) – Author
 - **Mirna El Ghosh** (Sorbonne Université, Inserm, Université Sorbonne Paris-Nord, LIMICS) –  Contributor
+- **Alexander Harms** (STICHTING HEALTH-RI, Health-RI)
 
 ### Reviewers
 
@@ -187,6 +188,6 @@ The specification benefited from review and feedback from:
 
 - **Irene Marin Radoszynski** (La Fe University and Polytechnic Hospital – La Fe Health Research Institute, HULAFE)
 - **Eirini Kaldeli** (MAGGIOLI S.P.A. Research and Development Lab, MAG)
-- **Alexander Harms** (STICHTING HEALTH-RI, Health-RI)
+
 
 The authors also acknowledge the work of the **HealthDCAT-AP** and **DCAT-AP** communities, whose specifications constitute the foundation upon which the EUCAIM DCAT Application Profile is built.
