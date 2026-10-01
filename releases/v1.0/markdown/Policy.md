@@ -1,4 +1,4 @@
-| Property label   | Definition   | Property URI     | Range            | Cardinality   | Usage note                                                                            | Controlled vocabluary (if applicable)   |
+| Property label   | Definition   | Property URI     | Range            | Cardinality   | Usage note                                                                            | Controlled vocabulary (if applicable)   |
 |:-----------------|:-------------|:-----------------|:-----------------|:--------------|:--------------------------------------------------------------------------------------|:----------------------------------------|
 | Permission       |              | odrl:permission  | odrl:Permission  | 0..n          | At least one of odrl:permission, odrl:prohibition, or odrl:obligation must be present |                                         |
 | Prohibition      |              | odrl:prohibition | odrl:Prohibition | 0..n          | At least one of odrl:permission, odrl:prohibition, or odrl:obligation must be present |                                         |
